@@ -1,0 +1,235 @@
+{
+  "competitions": [
+    {
+      "competition": "Campeonato Season 5 - Black Friday",
+      "engagement_data": {
+        "before_competition": {
+          "start": "2024-11-01",
+          "end": "2024-11-13",
+          "total_average_time": "00:01:02",
+          "observations": null
+        },
+        "total_period": {
+          "start": "2024-11-14",
+          "end": "2024-11-29",
+          "total_average_time": "00:03:15",
+          "observations": null
+        },
+        "daily": [
+          {
+            "date": "2024-11-14",
+            "start": "2024-11-14",
+            "end": "2024-11-14",
+            "total_average_time": "00:00:45",
+            "observations": null
+          },
+          {
+            "date": "2024-11-15",
+            "start": "2024-11-15",
+            "end": "2024-11-15",
+            "total_average_time": "00:01:57",
+            "observations": "Feriado"
+          },
+          {
+            "date": "2024-11-16",
+            "start": "2024-11-16",
+            "end": "2024-11-16",
+            "total_average_time": "00:00:58",
+            "observations": null
+          },
+          {
+            "date": "2024-11-17",
+            "start": "2024-11-17",
+            "end": "2024-11-17",
+            "total_average_time": "00:01:12",
+            "observations": null
+          },
+          {
+            "date": "2024-11-18",
+            "start": "2024-11-18",
+            "end": "2024-11-18",
+            "total_average_time": "00:00:47",
+            "observations": null
+          },
+          {
+            "date": "2024-11-19",
+            "start": "2024-11-19",
+            "end": "2024-11-19",
+            "total_average_time": "00:01:23",
+            "observations": null
+          },
+          {
+            "date": "2024-11-20",
+            "start": "2024-11-20",
+            "end": "2024-11-20",
+            "total_average_time": "00:01:41",
+            "observations": "Feriado + Call via WhatsApp"
+          },
+          {
+            "date": "2024-11-21",
+            "start": "2024-11-21",
+            "end": "2024-11-21",
+            "total_average_time": "00:01:41",
+            "observations": null
+          },
+          {
+            "date": "2024-11-22",
+            "start": "2024-11-22",
+            "end": "2024-11-22",
+            "total_average_time": "00:01:25",
+            "observations": null
+          },
+          {
+            "date": "2024-11-23",
+            "start": "2024-11-23",
+            "end": "2024-11-23",
+            "total_average_time": "00:01:25",
+            "observations": null
+          },
+          {
+            "date": "2024-11-24",
+            "start": "2024-11-24",
+            "end": "2024-11-24",
+            "total_average_time": "00:00:57",
+            "observations": null
+          },
+          {
+            "date": "2024-11-25",
+            "start": "2024-11-25",
+            "end": "2024-11-25",
+            "total_average_time": "00:02:18",
+            "observations": null
+          },
+          {
+            "date": "2024-11-26",
+            "start": "2024-11-26",
+            "end": "2024-11-26",
+            "total_average_time": "00:00:58",
+            "observations": null
+          },
+          {
+            "date": "2024-11-27",
+            "start": "2024-11-27",
+            "end": "2024-11-27",
+            "total_average_time": "00:01:57",
+            "observations": "Last Call via WhatsApp"
+          },
+          {
+            "date": "2024-11-28",
+            "start": "2024-11-28",
+            "end": "2024-11-28",
+            "total_average_time": "00:01:50",
+            "observations": null
+          },
+          {
+            "date": "2024-11-29",
+            "start": "2024-11-29",
+            "end": "2024-11-29",
+            "total_average_time": "00:05:04",
+            "observations": "Último Dia de Competição"
+          }
+        ]
+      }
+    },
+    {
+      "competition": "Campeonato Season 6 - Natal",
+      "engagement_data": {
+        "before_competition": {
+          "start": "2024-12-01",
+          "end": "2024-12-12",
+          "total_average_time": "00:01:26",
+          "observations": null
+        },
+        "total_period": {
+          "start": "2024-12-13",
+          "end": "2024-12-23",
+          "total_average_time": "00:06:19",
+          "observations": null
+        },
+        "daily": [
+          {
+            "date": "2024-12-13",
+            "start": "2024-12-13",
+            "end": "2024-12-13",
+            "total_average_time": "00:01:27",
+            "observations": null
+          },
+          {
+            "date": "2024-12-14",
+            "start": "2024-12-14",
+            "end": "2024-12-14",
+            "total_average_time": "00:00:43",
+            "observations": null
+          },
+          {
+            "date": "2024-12-15",
+            "start": "2024-12-15",
+            "end": "2024-12-15",
+            "total_average_time": "00:00:59",
+            "observations": null
+          },
+          {
+            "date": "2024-12-16",
+            "start": "2024-12-16",
+            "end": "2024-12-16",
+            "total_average_time": "00:02:05",
+            "observations": "Dia do Lava Rush"
+          },
+          {
+            "date": "2024-12-17",
+            "start": "2024-12-17",
+            "end": "2024-12-17",
+            "total_average_time": "00:04:05",
+            "observations": "Dia do The Runner"
+          },
+          {
+            "date": "2024-12-18",
+            "start": "2024-12-18",
+            "end": "2024-12-18",
+            "total_average_time": "00:00:46",
+            "observations": null
+          },
+          {
+            "date": "2024-12-19",
+            "start": "2024-12-19",
+            "end": "2024-12-19",
+            "total_average_time": "00:01:48",
+            "observations": null
+          },
+          {
+            "date": "2024-12-20",
+            "start": "2024-12-20",
+            "end": "2024-12-20",
+            "total_average_time": "00:01:10",
+            "observations": "Last Call + Pontos em Dobro"
+          },
+          {
+            "date": "2024-12-21",
+            "start": "2024-12-21",
+            "end": "2024-12-21",
+            "total_average_time": "00:03:50",
+            "observations": null
+          },
+          {
+            "date": "2024-12-22",
+            "start": "2024-12-22",
+            "end": "2024-12-22",
+            "total_average_time": "00:03:50",
+            "observations": null
+          },
+          {
+            "date": "2024-12-23",
+            "start": "2024-12-23",
+            "end": "2024-12-23",
+            "total_average_time": "00:09:54",
+            "observations": "Último Dia de Competição"
+          }
+        ]
+      }
+    }
+  ],
+  "references": {
+    "llm_metrics": "Link para o LLM com dados e métricas do Game Room",
+    "winners_sheet": "Link para a planilha de vencedores e prêmios"
+  }
+}
