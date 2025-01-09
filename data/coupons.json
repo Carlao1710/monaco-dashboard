@@ -1,0 +1,26 @@
+[
+    {
+      "_id": { "$oid": "66dcba629de992f08f75e3f2" },
+      "code": "MONACO50",
+      "discountType": "percentage",
+      "discountValue": { "$numberInt": "50" },
+      "remainingUses": { "$numberInt": "684" },
+      "expirationDate": { "$date": { "$numberLong": "1735689599000" } },
+      "isActive": true,
+      "createdAt": { "$date": { "$numberLong": "1725741666247" } },
+      "updatedAt": { "$date": { "$numberLong": "1725741666251" } },
+      "__v": { "$numberInt": "0" }
+    },
+    {
+      "_id": { "$oid": "67648f86c9bd7277ff4b4302" },
+      "code": "PAPAINOEL30",
+      "discountType": "percentage",
+      "discountValue": { "$numberInt": "30" },
+      "remainingUses": { "$numberInt": "991" },
+      "expirationDate": { "$date": { "$numberLong": "1735689599000" } },
+      "isActive": true,
+      "createdAt": { "$date": { "$numberLong": "1725741666247" } },
+      "updatedAt": { "$date": { "$numberLong": "1725741666251" } },
+      "__v": { "$numberInt": "0" }
+    }
+  ]

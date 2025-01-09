@@ -1,0 +1,66 @@
+Lógica de Projeções de Tickets no Projeto LLM-Monaco-GameRoom
+
+Este documento descreve a lógica utilizada para estimar o número de tickets no módulo de Projeções do projeto LLM-Monaco-GameRoom. As projeções utilizam dados históricos para calcular métricas relacionadas a tickets gerados pelos usuários da plataforma.
+
+🔍 Componentes da Lógica
+
+1. Usuários Ajustados
+	•	Definição: Representa a quantidade estimada de usuários que irão gerar tickets durante o período.
+	•	Fórmula:
+￼
+
+2. Média de Tickets por Usuário
+	•	Definição: Média de tickets gerados por cada usuário por semana, com base nos dados históricos.
+
+3. Tempo (Semanas)
+	•	Definição: Período em semanas utilizado para a projeção.
+	•	Uso: Multiplica os tickets gerados por semana pelo número total de semanas.
+
+4. Fórmula Completa para Tickets Totais
+
+￼
+
+5. Valor Total dos Tickets
+	•	Definição: Estima o valor financeiro total gerado pelos tickets.
+	•	Fórmula:
+￼
+
+📊 Exemplo Prático
+
+Dados de Entrada:
+	•	Base de Usuários: 50.000.
+	•	Percentual de Usuários que Geram Tickets: 20%.
+	•	Média de Tickets por Usuário por Semana: 3.
+	•	Valor Médio por Ticket: R$10.
+	•	Tempo de Projeção: 4 semanas.
+
+Cálculos:
+	1.	Usuários Ajustados:
+￼
+	2.	Tickets Totais:
+￼
+	3.	Valor Total de Tickets:
+￼
+
+🛠️ Personalização por Segmentos
+
+A lógica pode ser ajustada para diferentes grupos de usuários, como heavy users e usuários casuais, utilizando diferentes médias de tickets por semana.
+
+Exemplo de Segmentação:
+	•	Heavy Users: Média de 5 tickets/semana.
+	•	Usuários Casuais: Média de 2 tickets/semana.
+
+Projeção:
+	1.	Estimar tickets para cada segmento separadamente.
+	2.	Somar os resultados para obter o total geral.
+
+🚀 Vantagens da Abordagem
+	1.	Escalabilidade: Adapta-se a diferentes tamanhos de bases de usuários e períodos.
+	2.	Customização: Permite ajustes para cenários específicos.
+	3.	Transparência: Explicação clara dos cálculos utilizados.
+
+🔗 Aplicação no Projeto
+
+Esta lógica é aplicada no módulo de Projeções do LLM-Monaco-GameRoom, especialmente para clientes como a Claro, utilizando parâmetros ajustáveis para atender às demandas do mercado.
+
+Desenvolvido por Carlos Carvalho.

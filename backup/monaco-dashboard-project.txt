@@ -1,0 +1,17 @@
+monaco-dashboard/
+├── package.json
+├── tailwind.config.js
+├── next.config.js
+├── tsconfig.json
+├── .gitignore
+├── src/
+│   ├── app/
+│   │   ├── layout.tsx
+│   │   └── page.tsx
+│   ├── components/
+│   │   └── ui/
+│   │       ├── card.tsx
+│   │       └── dashboard.tsx
+│   └── styles/
+│       └── globals.css
+└── README.md

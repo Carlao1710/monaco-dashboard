@@ -1,0 +1,102 @@
+[
+  {
+    "_id": {"$oid": "6692eb7876b6530395b197ef"},
+    "title": "Closed Beta",
+    "description": "Competição para teste fechado do Game Room.",
+    "startDate": {"$date": {"$numberLong": "1717243200000"}},
+    "endDate": {"$date": {"$numberLong": "1720472400000"}},
+    "winners": [
+      {
+        "userId": {"$oid": "667a29e7f43afb242bb3f4c0"},
+        "matches": {"$numberInt": "49"},
+        "tickets": {"$numberInt": "4218"},
+        "position": {"$numberInt": "1"},
+        "_id": {"$oid": "6692b85988ab4c9256dfb113"},
+        "createdAt": {"$date": {"$numberLong": "1720891481151"}}
+      },
+      {
+        "userId": {"$oid": "6679e9aaa0cc3c6107c65a93"},
+        "matches": {"$numberInt": "45"},
+        "tickets": {"$numberInt": "4006"},
+        "position": {"$numberInt": "2"},
+        "_id": {"$oid": "6692b85988ab4c9256dfb114"},
+        "createdAt": {"$date": {"$numberLong": "1720891481151"}}
+      },
+      {
+        "userId": {"$oid": "6679ea38024a56b730d16603"},
+        "matches": {"$numberInt": "39"},
+        "tickets": {"$numberInt": "3493"},
+        "position": {"$numberInt": "3"},
+        "_id": {"$oid": "6692b85988ab4c9256dfb115"},
+        "createdAt": {"$date": {"$numberLong": "1720891481151"}}
+      }
+    ],
+    "createdAt": {"$date": {"$numberLong": "1720891481152"}},
+    "__v": {"$numberInt": "0"}
+  },
+  {
+    "_id": {"$oid": "669a732797fbfe2347dfa4db"},
+    "title": "Closed Beta Season 2",
+    "description": "Competição para teste aberto do Game Room.",
+    "startDate": {"$date": {"$numberLong": "1722513600000"}},
+    "endDate": {"$date": {"$numberLong": "1723755600000"}},
+    "winners": [
+      {
+        "userId": {"$oid": "66954d153573c7bfebbc9739"},
+        "matches": {"$numberInt": "238"},
+        "tickets": {"$numberInt": "23036"},
+        "position": {"$numberInt": "1"},
+        "_id": {"$oid": "66be6cfd55129b5860cbeb0f"},
+        "createdAt": {"$date": {"$numberLong": "1723744800151"}}
+      },
+      {
+        "userId": {"$oid": "669a859cf1e8feb2d05a0786"},
+        "matches": {"$numberInt": "216"},
+        "tickets": {"$numberInt": "21140"},
+        "position": {"$numberInt": "2"},
+        "createdAt": {"$date": {"$numberLong": "1723744800151"}},
+        "_id": {"$oid": "66be707755129b5860cbeb17"}
+      },
+      {
+        "userId": {"$oid": "669e831c506b6f3899864a8e"},
+        "matches": {"$numberInt": "158"},
+        "tickets": {"$numberInt": "15095"},
+        "position": {"$numberInt": "3"},
+        "createdAt": {"$date": {"$numberLong": "1723744800151"}},
+        "_id": {"$oid": "66be706355129b5860cbeb16"}
+      }
+    ]
+  },
+  {
+    "_id": {"$oid": "66d608c0ec2814ed055fe0cb"},
+    "title": "Campeonato Season 3",
+    "description": "Competição do Game Room com oferecimento da Team Liquid.",
+    "startDate": {"$date": {"$numberLong": "1725656400000"}},
+    "endDate": {"$date": {"$numberLong": "1726952400000"}},
+    "winners": []
+  },
+  {
+    "_id": {"$oid": "67041a5d14211b89096fcefe"},
+    "title": "Campeonato Season 4 - BGS",
+    "description": "Competição do Game Room para BGS 2024.",
+    "startDate": {"$date": {"$numberLong": "1728468000000"}},
+    "endDate": {"$date": {"$numberLong": "1728939600000"}},
+    "winners": []
+  },
+  {
+    "_id": {"$oid": "6734a20fb551057f23e9d73f"},
+    "title": "Campeonato Season 5 - Black Friday",
+    "description": "Competição do Game Room para Black Friday 2024.",
+    "startDate": {"$date": {"$numberLong": "1731618000000"}},
+    "endDate": {"$date": {"$numberLong": "1732914000000"}},
+    "winners": []
+  },
+  {
+    "_id": {"$oid": "675c772660a6f13682659105"},
+    "title": "Campeonato Season 6 - Natal",
+    "description": "Competição do Game Room de Natal",
+    "startDate": {"$date": {"$numberLong": "1734123600000"}},
+    "endDate": {"$date": {"$numberLong": "1734987600000"}},
+    "winners": []
+  }
+]

@@ -1,0 +1,89 @@
+[
+    {
+      "_id": {
+        "$oid": "66c5915436165ba67af36bc9"
+      },
+      "name": "Pacote 20 Fichas",
+      "category": "Fichas",
+      "quantity": {
+        "$numberInt": "1"
+      },
+      "price": {
+        "$numberDouble": "18.99"
+      },
+      "coinsAmount": {
+        "$numberDouble": "20.0"
+      },
+      "description": "Pacote com 20 fichas: adquira e tenha mais fichas à disposição, garantindo mais tempo de jogo e diversão contínua.",
+      "image": "/imgs/store/coinpack2.png",
+      "priority": {
+        "$numberInt": "2"
+      },
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1724223828921"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "66c59154f473f074d3498953"
+      },
+      "name": "Pacote 10 Fichas",
+      "category": "Fichas",
+      "quantity": {
+        "$numberInt": "1"
+      },
+      "price": {
+        "$numberDouble": "9.99"
+      },
+      "coinsAmount": {
+        "$numberDouble": "10.0"
+      },
+      "description": "Pacote com 10 fichas: adquira e tenha mais fichas à disposição, garantindo mais tempo de jogo e diversão contínua.",
+      "image": "/imgs/store/coinpack1.png",
+      "priority": {
+        "$numberInt": "1"
+      },
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1724223828914"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "66c59157c73704ea955fc6aa"
+      },
+      "name": "Pacote 50 Fichas",
+      "category": "Fichas",
+      "quantity": {
+        "$numberInt": "1"
+      },
+      "price": {
+        "$numberDouble": "35.99"
+      },
+      "coinsAmount": {
+        "$numberDouble": "50.0"
+      },
+      "description": "Pacote com 50 fichas: adquira e tenha mais fichas à disposição, garantindo mais tempo de jogo e aumentando suas chances de vencer a competição.",
+      "image": "/imgs/store/coinpack3.png",
+      "priority": {
+        "$numberInt": "3"
+      },
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1724223831300"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      }
+    }
+  ]

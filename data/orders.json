@@ -1,0 +1,4718 @@
+[
+    {
+      "_id": {
+        "$oid": "66c5e1cf7af181869d2db2c1"
+      },
+      "user": {
+        "$oid": "6679d9ea881f6e8f854ca7d7"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c59154f473f074d3498953"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberInt": "10"
+          },
+          "_id": {
+            "$oid": "66c5e1cf7af181869d2db2c2"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberInt": "10"
+      },
+      "status": "completed",
+      "paymentStatus": "paid",
+      "paymentMethod": "pix",
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1724244431359"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1724244432161"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "asaasId": "pay_14ak6ks3hzqekj3s",
+      "pixKey": "00020101021226800014br.gov.bcb.pix2558pix.asaas.com/qr/cobv/0ce8b0e6-eb10-4f80-a1f0-5a2b0a46d2285204000053039865802BR5920MONACO SOLUCOES LTDA6007Barueri61080645400062070503***630468FC",
+      "pixQRCode": "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0Y1udKMb3ehGN7rRjW50o1u3biX16y8npwSdrXpuq8ktufliZ/K94v4gdnSjG93oRje60Y1udKMb3ehGN7rRjW50oxvdPqNbSSG1VTltkVTST23twpxQWxfhmgWVa0U3utGNbnSjG93oRje60Y1udKMb3ehGN7rR7TO6ba371mAdtG+rrYt1ap0Uzt3WJTdf7DH+6Qjd6EY3utGNbnSjG93oRje60Y1udKMb3ehGt5t1O9gxHXzIXH0zVrFtddNXVGydQsX+8NZcHRwGutGNbnSjG93oRje60Y1udKMb3ehGN7rRjW50y+oW2++tjmnLgq3a92uvEKvmOy9CutGNbnSjG93oRje60Y1udKMb3ehGN7rRjW50W+1MY9sw91WxOYv1YjGStorsGyvjzmNFN7rRjW50oxvd6EY3utGNbnSjG93oRje60e0zum1988ENnjtmsdJwjoatjrizypzbsgcqVLrRjW50oxvd6EY3utGNbnSjG93oRje60Y1udBterNjalfSPWwu71ZnGgL5xGA5+c2fPSze60Y1udKMb3ehGN7rRjW50oxvd6EY3utHtq7qJiPSEbiJCNxERuomI0E1EhG4iInQTEbqJiNBNRIRuIiJ0ExGhm4gI3USEbiIidBMRoZuICN1EROgmIkI3EaGbiAjdREToJiJCNxERuomI0E1EvpN/Aein8rE/tnGmAAAAAElFTkSuQmCC"
+    },
+    {
+      "_id": {
+        "$oid": "66c5e49e54efc26c5426453e"
+      },
+      "user": {
+        "$oid": "667757512ed9c33fef985652"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c59154f473f074d3498953"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberDouble": "9.99"
+          },
+          "_id": {
+            "$oid": "66c5e49e54efc26c5426453f"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberDouble": "9.99"
+      },
+      "status": "completed",
+      "paymentStatus": "paid",
+      "paymentMethod": "pix",
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1724245150865"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1724245151698"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "asaasId": "pay_i81gdpqjjccu9fl2",
+      "pixKey": "00020101021226800014br.gov.bcb.pix2558pix.asaas.com/qr/cobv/4de90f97-26f0-4922-9b18-72ff8c1b71635204000053039865802BR5920MONACO SOLUCOES LTDA6007Barueri61080645400062070503***63049661",
+      "pixQRCode": "iVBORw0KGgoAAAANSUhEUgAAAZ8AAAGfCAIAAAAPgEjDAAAP9ElEQVR42u3aUW5DNxADwNz/0ukNCrTRcim94a8T209ajQIwP78iIi/mxxKICN1EROgmIkI3ERG6iYjQTUToJiJCNxERuomI0E1EhG4iInQTEbqJiNBNRIRuIiJ0ExGhm4gI3USEbiIidBMRoZuICN1EROgmIkI3EaHb/3mvVP79c+e+5H/63Lm3+svj/2U1/tNbxSan853/8vhzuz83z3Onm250oxvd6EY3utGNbnSjG93oRje60Y1udKPbZ3SLvfPcnMVGZ06KubWK7X4nDQctiF3Ac3NV6gbd6EY3utGNbnSjG93oRje60Y1udKMb3ehGt4t1i7WTsYUumZXYqTv4rba+8/ONeedfGLHzSze60Y1udKMb3ehGN7rRjW50oxvd6EY3utGNbqfR6SSppGHs/BpbZ2Nu+Eu+5Nwu0I1udKMb3ehGN7rRjW50oxvd6EY3utGNbnSj2z26xaZwrsw6uJJbt8jWmfwZy8G12vrdgwtLN7rRjW50oxvd6EY3utGNbnSjG93oRje60Y1uxX1cbGW3tvDgqZvDfetz/3L4Y+988HNLStKS0003utGNbnSjG93oRje60Y1udKMb3ehGN7rR7TO6lbRXXvWqV4+/GjvddPOqV71KN7p51atepRvdvOpVr9KNbl71Kt3e1a2zGDrYmXZ+7lZnGhvoraZv7hDOXe0HB/gFGehGN7rRjW50oxvd6EY3utGNbnSjG93oRje6XaxbrBWdq422ZrQkW5uytUclXsewO3hg596KbnSjG93oRje60Y1udKMb3ehGN7rRjW50o9u7uh0c6E4356Z/q7w7uKGxZY99563fLalu58r3KztTutGNbnSjG93oRje60Y1udKMb3ehGN7rRjW5pzmIdU+chLDF3a39j1W3sAa+o9ed2IVaC041udKMb3ehGN7rRjW50oxvd6EY3utGNbnR7SLdYq1Ky0FtSzM13rLqdI7hkJmMVeWdxH9tQutGNbnSjG93oRje60Y1udKMb3ehGN7rRjW436xY77XNHNIZODNnOOya2C1ut9wM37twVm7vM6EY3utGNbnSjG93oRje60Y1udKMb3ehGN7pV61ZyYmP7HRudGKNbI1uizMHP3Won3/tzhG50oxvd6EY3utGNbnSjG93oRje6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Rje60Y1udKMb3ehGN7p9RrfO+vUgHDELYrdICZRzPxy7ca9on7f+OtlqVOlGN7rRjW50oxvd6EY3utGNbnSjG93oRje6det2RSG1dVTmzlXJA241bgdl7HyrraWL9Z5X/kcI3ehGN7rRjW50oxvd6EY3utGNbnSjG93oRrfxM1nyzrE+bgvouR7wikJ5a61KWOm8236XQje60Y1udKMb3ehGN7rRjW50oxvd6EY3utHtZt3mqp/YMStpvmLtcwnBMVVLav3YeMcef25U6EY3utGNbnSjG93oRje60Y1udKMb3ehGN7rR7fTqbH1QrHLqrAWvWI0Yo523yNyVExtgutGNbnSjG93oRje60Y1udKMb3ehGN7rRjW50Wz1mJVDOHcK5D4rVzXMUbvXpW+bG5opudKMb3ehGN7rRjW50oxvd6EY3utGNbnSjG93C3zIl1NxBii1dyUA/cNVt7f7WTP6MhW50oxvd6EY3utGNbnSjG93oRje60Y1udKMb3bKrM6dbpxSxFjiGbEzGrZks6Uw7/w6I3RN0oxvd6EY3utGNbnSjG93oRje60Y1udKMb3a7STUSkJ3QTEbqJiNBNRIRuIiJ0ExGhm4jQTUSEbiIidBMRoZuICN1EROgmInQTEaGbiAjdREToJiJCNxERuokI3URE6CYiQjcREbqJiNBNRIRuIvKd/AN4QtF+b092owAAAABJRU5ErkJggg=="
+    },
+    {
+      "_id": {
+        "$oid": "66c5efd6d86dede63637f3fc"
+      },
+      "user": {
+        "$oid": "6679d9ea881f6e8f854ca7d7"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c5915436165ba67af36bc9"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberDouble": "19.99"
+          },
+          "_id": {
+            "$oid": "66c5efd6d86dede63637f3fd"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberDouble": "19.99"
+      },
+      "status": "completed",
+      "paymentStatus": "paid",
+      "paymentMethod": "pix",
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1724248022585"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1724248023544"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "asaasId": "pay_2rpw9lahru8xzaxr",
+      "pixKey": "00020101021226800014br.gov.bcb.pix2558pix.asaas.com/qr/cobv/62691c58-91d5-4368-84b9-7f73043487515204000053039865802BR5920MONACO SOLUCOES LTDA6007Barueri61080645400062070503***63047650",
+      "pixQRCode": "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jW50o1u1bp3160E4SmrQWGu29btz1s/duCUid3472WpU6UY3utGNbnSjG93oRje60Y1udKMb3ehGN7p161ZSSM2N7NyZ3Hq1s487eHJia7XldezfCeYu7yv/I4RudKMb3ehGN7rRjW50oxvd6EY3utGNbnSj23ndSt65BKw5guc604NXTuz2ip26TlZK+uVYK0o3utGNbnSjG93oRje60Y1udKMb3ehGN7rR7V3d5qqfkgYqVhre2D7H1iq2dAc/1dwPlzx+7GsB3ehGN7rRjW50oxvd6EY3utGNbnSjG93oRje6FfdTB2uj2FGZa1RjZ3LLgq3SMDb8JTcQ3ehGN7rRjW50oxvd6EY3utGNbnSjG93oRje6NXWmc49wcK3mDuHc88Yq1NilMvcx5lZja55j5tKNbnSjG93oRje60Y1udKMb3ehGN7rRjW50+4xuJYu1dZBKes+5R5j7kFtX3dbuX6GqzpRudKMb3ehGN7rRjW50oxvd6EY3utGNbnSjW3ZkY4s191ZzezZ3REvup63zvJWtC7jke0DsnqAb3ehGN7rRjW50oxvd6EY3utGNbnSjG93odpVuIiI9oZuI0E1EhG4iInQTEaGbiAjdRIRuIiJ0ExGhm4gI3URE6CYiQjcRoZuICN1EROgmIkI3ERG6iYjQTUToJiJCNxERuomI0E1EhG4iInQTke/kX4NFvh69Div5AAAAAElFTkSuQmCC"
+    },
+    {
+      "_id": {
+        "$oid": "66c5f77d1b01de61880420de"
+      },
+      "user": {
+        "$oid": "66774e35500a9c884a85d3a9"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c59154f473f074d3498953"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberDouble": "9.99"
+          },
+          "_id": {
+            "$oid": "66c5f77d1b01de61880420df"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberDouble": "9.99"
+      },
+      "status": "completed",
+      "paymentStatus": "paid",
+      "paymentMethod": "pix",
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1724249981054"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1724249981814"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "asaasId": "pay_l81powmva8s2wk53",
+      "pixKey": "00020101021226800014br.gov.bcb.pix2558pix.asaas.com/qr/cobv/844c08c7-3e76-419e-922f-06177becde1d5204000053039865802BR5920MONACO SOLUCOES LTDA6007Barueri61080645400062070503***63048D3D",
+      "pixQRCode": "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"
+    },
+    {
+      "_id": {
+        "$oid": "66c5fd9f314456cc6dd08c55"
+      },
+      "user": {
+        "$oid": "6679d9ea881f6e8f854ca7d7"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c5915436165ba67af36bc9"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberDouble": "19.99"
+          },
+          "_id": {
+            "$oid": "66c5fd9f314456cc6dd08c56"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberDouble": "19.99"
+      },
+      "status": "completed",
+      "paymentStatus": "paid",
+      "paymentMethod": "pix",
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1724251551635"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1724251552525"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "asaasId": "pay_dq83rno9e1d537ch",
+      "pixKey": "00020101021226800014br.gov.bcb.pix2558pix.asaas.com/qr/cobv/db55d309-d3d9-49f6-8b0f-0801245425925204000053039865802BR5920MONACO SOLUCOES LTDA6007Barueri61080645400062070503***63047DAD",
+      "pixQRCode": "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oxvd6EY3utGNbnSjG93oRrerdIsVQ3ONzFz9mlvRsRdbchtzYG1xdvCLYvbN3RXd6EY3utGNbnSjG93oRje60Y1udKMb3ehGt8/oFtscne3VHO6x5murbo41m7HO9N9StuwrnUG60Y1udKMb3ehGN7rRjW50oxvd6EY3utGNbjd1plcscMn3lhBcwmisBo1V5Fc80ZybWycB3ehGN7rRjW50oxvd6EY3utGNbnSjG93oRrerdCvZ/bHv/eWuDv5ubGPF+I61z1vIxm4ytqAl2NGNbnSjG93oRje60Y1udKMb3ehGN7rRjW5069bt4APH8ss9b0F5cMy2ury5YZib54Mbae7km5vBuX01ON10oxvd6EY3utGNbnSjG93oRje60Y1udKMb3S7WLTYMV/RxMZJKhiE2ObFPvgLK2HJ3/qFDN7rRjW50oxvd6EY3utGNbnSjG93oRje60e0zum0xujU5nZsy1vTN1c0l7yp2k7FuuuQkoBvd6EY3utGNbnSjG93oRje60Y1udKMb3ej2rm6x8Y7d1dzEzv1wTJmS+jX2w7EzNcZKyT8b0I1udKMb3ehGN7rRjW50oxvd6EY3utGNbnT7jG4lDWOs6trasnPHRqxf3jrqtvrWLUceOI/pRje60Y1udKMb3ehGN7rRjW50oxvd6EY3un1Vt63l39rBMetjkxNrrrfse6/YLTGXbnSjG93oRje60Y1udKMb3ehGN7rRjW50oxvdmqZuq3/s3Csxv7ZIKtnAc4xuNcglbTvd6EY3utGNbnSjG93oRje60Y1udKMb3ehGN7oN960la7b1RFsHUuyciKlaYtADs7C2+nSjG93oRje60Y1udKMb3ehGN7rRjW50oxvdbtJtbs3eK+9K+qktr+ceYatw3NqTnQXr1uzTjW50oxvd6EY3utGNbnSjG93oRje60Y1udHtIt79UDs5VrFLspHDutc8NUgl2dzSMN/z/AN3oRje60Y1udKMb3ehGN7rRjW50oxvd6Ea3h3Sb2+6dlVNs6g7uhhL7tiZ27nevaDZjv9vydwDd6EY3utGNbnSjG93oRje60Y1udKMb3ehGt2rdYjXZFklzi7TVT22pulU4xsrZGCuxvzCumCO60Y1udKMb3ehGN7rRjW50oxvd6EY3utGNblfpVtL1zNVVJcsfUybWPndOTuwUie3YueaabnSjG93oRje60Y1udKMb3ehGN7rRjW50oxvdTmN345rFSrS/CxM7n66wYO7llPz/QOyT6UY3utGNbnSjG93oRje60Y1udKMb3ehGN7p9RreDz7C1G+YeMFZIlZwTv9zk3HLHWtGScnZrcLY4oxvd6EY3utGNbnSjG93oRje60Y1udKMb3eh2lW6x+rWkvDu4z+YILpFii++S54217Vt/cMy9DbrRjW50oxvd6EY3utGNbnSjG93oRje60Y1u7+rWuUdj1W3M3K2rJT8cc2Rw6lIl+NZZHmtF6UY3utGNbnSjG93oRje60Y1udKMb3ehGN7o9pNvWis4t8FZ3udVOdpZonX6VjPdW31p6itCNbnSjG93oRje60Y1udKMb3ehGN7rRjW50u0m3LRpi+2yu+Ivts9h73jpFSpCdM6jk1Oykn250oxvd6EY3utGNbnSjG93oRje60Y1udKPbzbrF5vlgfRNroDoLuIOzUULhFYk1uQdXITZldKMb3ehGN7rRjW50oxvd6EY3utGNbnSjG90e0i1WDG0xurWEsc409jYOrkLJ8Jcs2RaUWx9FN7rRjW50oxvd6EY3utGNbnSjG93oRje60e0h3Q6+6NgQbk3d3D3Pbbu5q7FTc6vJfa+4jy0o3ehGN7rRjW50oxvd6EY3utGNbnSjG93oRrfP6FYyhHNbZ0uKWGk415rFNlKsrYtNSucsbO1nutGNbnSjG93oRje60Y1udKMb3ehGN7rRjW4P6XbwVd5YDMUMmvuo2NWtL7riAbdkLPmjgW50oxvd6EY3utGNbnSjG93oRje60Y1udKPbQ7rFCqmtPXrFLoyN9wPzvIVsrCPunDK60Y1udKMb3ehGN7rRjW50oxvd6EY3utGNbnT7+S4PzuRW9TN3EpR0tZ27f24FSzrEOfpL2vbBDUw3utGNbnSjG93oRje60Y1udKMb3ehGN7rR7WLdOke0BKyYqrElK2kn587F2J6M6RZrrulGN7rRjW50oxvd6EY3utGNbnSjG93oRje60W14y8a6nthMbgkVm6tYlVliX8nO6WyutyikG93oRje60Y1udKMb3ehGN7rRjW50oxvd6Nat29wyzH1UyRDm1jv1gHPnU0mXdwUcW3vywc6UbnSjG93oRje60Y1udKMb3ehGN7rRjW50o9t53Q6+962ddIWqf2OZoz/WuJWkU4qtx9/67wK60Y1udKMb3ehGN7rRjW50oxvd6EY3utGNbt26ddavB+e5s/maO0Xm5vngu4q13leI3PnXyVajSje60Y1udKMb3ehGN7rRjW50oxvd6EY3utGtW7eSQio23lvL39kvbzVuB2Xs/KitVxfrPa/8jxC60Y1udKMb3ehGN7rRjW50oxvd6EY3utGNbud1K/nkuQo1JkXsbcQef+702uqXS1gpObxjrSjd6EY3utGNbnSjG93oRje60Y1udKMb3ehGt3d1m6t+rpjYGLIPVGyda3Rwnjt/eGtfvdCZ0o1udKMb3ehGN7rRjW50oxvd6EY3utGNbnR7R7e58Z7b7nPKzP1w55u8YgW3CvTY/x6s/a8F3ehGN7rRjW50oxvd6EY3utGNbnSjG93oRje6zY7ZXOW09UVbMt7YXcbK963KuBMsutGNbnSjG93oRje60Y1udKMb3ehGN7rRjW50O36XY0VYbOvEXl1J0zf3Nkqa3JI6svMEohvd6EY3utGNbnSjG93oRje60Y1udKMb3ehGt2FH5l7W3Ef9G0vMzc4niv3w1o7damNLbiN3ptKNbnSjG93oRje60Y1udKMb3ehGN7rRjW50q9ZNRKQndBMRuomI0E1EhG4iInQTEaGbiNBNRIRuIiJ0ExGhm4gI3URE6CYidBMRoZuICN1EROgmIkI3ERG6iQjdREToJiJCNxERuomI0E1EhG4i8p38B+O7PXUr3+lWAAAAAElFTkSuQmCC"
+    },
+    {
+      "_id": {
+        "$oid": "66c61a5895fa5b49f8613824"
+      },
+      "user": {
+        "$oid": "66774e07ea21debfcfe91d50"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c59154f473f074d3498953"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberDouble": "9.99"
+          },
+          "_id": {
+            "$oid": "66c61a5895fa5b49f8613825"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberDouble": "9.99"
+      },
+      "status": "completed",
+      "paymentStatus": "paid",
+      "paymentMethod": "pix",
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1724258904270"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1724258905014"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "asaasId": "pay_tr2ooeyfq95ge3ys",
+      "pixKey": "00020101021226800014br.gov.bcb.pix2558pix.asaas.com/qr/cobv/7155f352-5ac4-480b-9ffd-b111280721225204000053039865802BR5920MONACO SOLUCOES LTDA6007Barueri61080645400062070503***6304A04E",
+      "pixQRCode": "iVBORw0KGgoAAAANSUhEUgAAAZ8AAAGfCAIAAAAPgEjDAAAQFElEQVR42u3bW5IjNxADwL3/pdc3cIQtAlVkJ361I7X4yJoIzP75KyLyYv5YAhGhm4gI3URE6CYiQjcREbqJCN1EROgmIkI3ERG6iYjQTUSEbiJCNxERuomI0E1EhG4iInQTEaGbiNBNRIRuIiJ0ExGhm4gI3URE6CYidPs/79XKv39u7iH/01v9snQHXz24Gr98hdqmLHnnnbt/8INqt5tudKMb3ehGN7rRjW50oxvd6EY3utGNbnSj22d0q71z7pzlLtLBlTw4CWozZupsTK1z7menJtAdbtCNbnSjG93oRje60Y1udKMb3ehGN7rRjW50u1i33M2ptVfvTYLaF5xqVKea+txb5WbqzttNN7rRjW50oxvd6EY3utGNbnSjG93oRje60Y1u4e+f2++djNYu0hTutdn2wFDJHWC60Y1udKMb3ehGN7rRjW50oxvd6EY3utGNbnSj29b/qHTwMQ62hEsozB2GqTNZm6m1uUg3utGNbnSjG93oRje60Y1udKMb3ehGN7rRjW7dHrBWSNUKxxxYtT3KrXPuqWrPvKS6zck4dbvpRje60Y1udKMb3ehGN7rRjW50oxvd6EY3un1Gt1qX51WvenXzAJ6aBHTzqle9Sje6edWrXqUb3bzqVbrRjW5e9Srdduu2pBja2ZkeLLNq3zfXex5c9p1rlfs94OBK7ux56UY3utGNbnSjG93oRje60Y1udKMb3ehGN7rR7eeVzbFSE2pJIZW7KlPLnnMkV/zVjlkO96m5SDe60Y1udKMb3ehGN7rRjW50oxvd6EY3utHtXd1yRVitU5u6k1Pl3cG12lnO1hrknWDd+AsH3ehGN7rRjW50oxvd6EY3utGNbnSjG93oRrd3daudpFxNVrvPU7euNgmmet7aMJsqo6cG0pKhQje60Y1udKMb3ehGN7rRjW50oxvd6EY3utHtId1qdWRNxisqp9oUyUE5VQvW7Ks985KJm5tPdKMb3ehGN7rRjW50oxvd6EY3utGNbnSjG90e0q3Wx+0kaclguGJTcv3jzq52agdzg2FJj083utGNbnSjG93oRje60Y1udKMb3ehGN7rR7Wbdajt64/U+eK92DqQl2B3c0Pda79oHbfktgW50oxvd6EY3utGNbnSjG93oRje60Y1udKPbat2WHPclQh1cnNyRfa9hzOmWAytYGu74Y4Pa/tKNbnSjG93oRje60Y1udKMb3ehGN7rRjW50u1m33GJNXaSpu7HzMZZMvrGbEyvBvzaQ6EY3utGNbnSjG93oRje60Y1udKMb3ehGN7p9VbepA72zzaltcK1B/mV/p2ZbrehcInLtltVepRvd6EY3utGNbnSjG93oRje60Y1udKMb3ej2rm4767mpn53q1KYMyn3QFdfsl69Qk3FJhVqTgW50oxvd6EY3utGNbnSjG93oRje60Y1udKPbbt2mrtnBLbziMWqtWa1grZ2NGg07p1ftLxNqbtKNbnSjG93oRje60Y1udKMb3ehGN7rRjW50e0i3JdXewVu35HOnet4lvXbtbkwN/hpnW5pNutGNbnSjG93oRje60Y1udKMb3ehGN7rRjW4f1a1WhOXKylqpVDscVzzGVNGZ+6DaQMpRmKtQe2ODbnSjG93oRje60Y1udKMb3ehGN7rRjW50o9tNuuUOR87cnUDXrvdUxVa7dUvO5FR2jjq60Y1udKMb3ehGN7rRjW50oxvd6EY3utGNbl/VbUqZqRp06vLnCF5yVXaiUyuFa/1y7S8Exn6zoRvd6EY3utGNbnSjG93oRje60Y1udKMb3eh2k265TZryq/YVaks3VbAe3N/auKo91dL+MbbddKMb3ehGN7rRjW50oxvd6EY3utGNbnSjG92+qluuGJpqkaZErq3VznWuTa+DT5UzaMqvJX+3QDe60Y1udKMb3ehGN7rRjW50oxvd6EY3utHtM7pN3ZxaeTfVMObWKndkD+7+knNVu7G5c1WbXg92pnSjG93oRje60Y1udKMb3ehGN7rRjW50oxvd4qn1YrldueJA1y7DkvM91bfWlj03rnY213SjG93oRje60Y1udKMb3ehGN7rRjW50oxvdPqNbrVKcule5s7Kk9p26G1ecq9xT1WhY0pnmOKMb3ehGN7rRjW50oxvd6EY3utGNbnSjG93odrNutXInd85yn1ubIkuKvyW7MLV0uWs15fXOq0E3utGNbnSjG93oRje60Y1udKMb3ehGN7rR7aud6ZIOcWpHc281dXOCJzg2U2vFfa7Wn2qQlxwVutGNbnSjG93oRje60Y1udKMb3ehGN7rRjW67dZsq4GoW5L7C1Bk9WKJNTaAlnzvVIe4chFvqZrrRjW50oxvd6EY3utGNbnSjG93oRje60Y1uz+pWqxSnzllvR2Pl3RRJS97qIGcHb8qS+VT7Awm60Y1udKMb3ehGN7rRjW50oxvd6EY3utGNbg/ptqQGnbrPtdOQa752Fn9TYNWK7KmhskRkutGNbnSjG93oRje60Y1udKMb3ehGN7rRjW5f1W1nait7RbWXe+acyDmCc1tW26OeFDH7gnefbnSjG93oRje60Y1udKMb3ehGN7rRjW50o9tNuuU6l6nTn1uNqctf+0ZX3Lrc1JyiYWrG1K4G3ehGN7rRjW50oxvd6EY3utGNbnSjG93oRrebdauds4NH5+DP5ra/ds5qF3hJH7ekQl1yF6bWKvgLFt3oRje60Y1udKMb3ehGN7rRjW50oxvd6Ea3i3WrJVfs1k7hksp4qiRdsuxTDfLU7k/t4AudKd3oRje60Y1udKMb3ehGN7rRjW50oxvd6Ea3myq2JWDVCqmps3JwnR+YXjsvf6191pnSjW50oxvd6EY3utGNbnSjG93oRje60Y1udAvrtuR6187Kwa+ws9ideqvcP85t2cE9yg2kHN9T2NGNbnSjG93oRje60Y1udKMb3ehGN7rRjW50u0q3nTdn6mBNJXdFlyhTa9tzB2lnd5nblJr1dKMb3ehGN7rRjW50oxvd6EY3utGNbnSjG90e0m1q+2si19659hhTUNbaySuK3SXm5mYq3ehGN7rRjW50oxvd6EY3utGNbnSjG93oRrfP6LYEnZ0laa6t22lQ7jLs3LIco0sa5NxjBHeQbnSjG93oRje60Y1udKMb3ehGN7rRjW50o9s7uuUuf22Tci1wbXFqz7zTzak5sfPkLAnd6EY3utGNbnSjG93oRje60Y1udKMb3ehGt6/qltuzK4577qlyhWOt5s4dhtrSTe3+jQXrg50p3ehGN7rRjW50oxvd6EY3utGNbnSjG93oRrdhzmrK1N7K0oVGXe225xan1plOnaupk0M3utGNbnSjG93oRje60Y1udKMb3ehGN7rR7SrdljR9B6u93Dc6+EFT9VyuM13Sxdfa59ouLKmqr+xM6UY3utGNbnSjG93oRje60Y1udKMb3ehGN7qd162GzsGVnTpJueO+RNXaJMiZOzVydv6GsWRD6UY3utGNbnSjG93oRje60Y1udKMb3ehGN7o9pNuSrmdqZXcSPNXl1d5qyVrtXMlcOUs3utGNbnSjG93oRje60Y1udKMb3ehGN7rRjW7hzvSKPat1l7nDMbWSV/zskpOTa1SXrGRtcehGN7rRjW50oxvd6EY3utGNbnSjG93oRje63axb7qwsqTJr2F1h31SDPNV73ljOLlm62nbTjW50oxvd6EY3utGNbnSjG93oRje60Y1udLtKt1r9mnPk+Rtba+uukOKK+TQ1j3On7oW/CKEb3ehGN7rRjW50oxvd6EY3utGNbnSjG93oNmxQ7nxPneDa9c7VglO3rnZUpqbIFHa5mzLVitKNbnSjG93oRje60Y1udKMb3ehGN7rRjW50u1m3XAH3S2q14JIeMPdUU9dsSQF38GzsvGUH72BtTtCNbnSjG93oRje60Y1udKMb3ehGN7rRjW50o9vPX3iKlal/PPXMS95q6uTkztWUm7X2ufeN6EY3utGNbnSjG93oRje60Y1udKMb3ehGN7rdpFvunF1xNw4a9HcouYXN/eOp+3zFW+UGUu4w0I1udKMb3ehGN7rRjW50oxvd6EY3utGNbnSj2+l/PFWw5lrCHNBLPre2Czs1X6LM1ACmG93oRje60Y1udKMb3ehGN7rRjW50oxvd6Ea3xRXqjR+0c51rd+NrYC2ZuEuwoxvd6EY3utGNbnSjG93oRje60Y1udKMb3ej2Gd1yK3vwyOaqzKkL/Ms7H1zJqT4ut5JLcnBTdhb3waWjG93oRje60Y1udKMb3ehGN7rRjW50oxvd6PasbrUtfKAYqhV/ORl3TqDafZ6qjGvLvmQ+0Y1udKMb3ehGN7rRjW50oxvd6EY3utGNbnTbrdvzUOawm3rmJTOmJlRuNXZ24rnPvaL1phvd6EY3utGNbnSjG93oRje60Y1udKMb3eh2VWdaO3YHL9LUoZy6Krn9nRoMBze0BuVBr2+cBMETSze60Y1udKMb3ehGN7rRjW50oxvd6EY3utHtJt1uZGVJDVo7Dbluq9aoHvzZB5a9RnDtmelGN7rRjW50oxvd6EY3utGNbnSjG93oRje6fUa3gy1hrYH6E0vtyB78oCUV287dr2k+dQdrvyUEf7OhG93oRje60Y1udKMb3ehGN7rRjW50oxvd6LZat9rNqVW3ue0f2++hAm7J6d85VHbW+jpTutGNbnSjG93oRje60Y1udKMb3ehGN7rRjW5h3Q6u+y8X6cbrvaTYXUJ/rpy9YjWeP7G9WU43utGNbnSjG93oRje60Y1udKMb3ehGN7rRbbVuO+vXg3DUSrTaFJkaKgd34eBDPiDyzt9OphpVutGNbnSjG93oRje60Y1udKMb3ehGN7rRjW67dVtSSOWObO4EH4SyBkdu9w/enKm1mlrJHDq54X3lX4TQjW50oxvd6EY3utGNbnSjG93oRje60Y1udDuv29Q7T1WoUwRP4Z5DZ8mZrN32nW7muvjeX1PQjW50oxvd6EY3utGNbnSjG93oRje60Y1udLtYtyUdYm2Dc1//xva5tla5pcsN4CX/eKr1fqEzpRvd6EY3utGNbnSjG93oRje60Y1udKMb3ej2jm43vlXuMZYc2SXK5HZhZ4GeW5zcrwV0oxvd6EY3utGNbnSjG93oRje60Y1udKMb3egWvki13jO3VkuWbskEyu1+7uvvrIxrYNGNbnSjG93oRje60Y1udKMb3ehGN7rRjW50o9vsU7a6nqnqZ8rNWqZoWNKo1qbX1KibqrnpRje60Y1udKMb3ehGN7rRjW50oxvd6EY3uj2k29RiHTyUU5VTrX+s1WS1ZZ86k0s60yXHu/ZHDnSjG93oRje60Y1udKMb3ehGN7rRjW50oxvdbtZNRGRP6CYidBMRoZuICN1EROgmIkI3EaGbiAjdREToJiJCNxERuomI0E1E6CYiQjcREbqJiNBNRIRuIiJ0ExG6iYjQTUSEbiIidBMRoZuICN1E5Dv5B+FnPtamn28iAAAAAElFTkSuQmCC"
+    },
+    {
+      "_id": {
+        "$oid": "66c620c74721b6f28f075eef"
+      },
+      "user": {
+        "$oid": "6679ea38024a56b730d16603"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c59154f473f074d3498953"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberDouble": "9.99"
+          },
+          "_id": {
+            "$oid": "66c620c74721b6f28f075ef0"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberDouble": "9.99"
+      },
+      "status": "completed",
+      "paymentStatus": "paid",
+      "paymentMethod": "pix",
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1724260551787"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1724260552491"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "asaasId": "pay_m8zrwki07i4msjgr",
+      "pixKey": "00020101021226800014br.gov.bcb.pix2558pix.asaas.com/qr/cobv/713a7e8b-303a-484e-b370-df3937880f9f5204000053039865802BR5920MONACO SOLUCOES LTDA6007Barueri61080645400062070503***63044932",
+      "pixQRCode": "iVBORw0KGgoAAAANSUhEUgAAAZ8AAAGfCAIAAAAPgEjDAAAP7klEQVR42u3aUW5DORIDwNz/0js3WGDGajalV/x1YvtJ6lIA5u9/IiIv5s8SiAjdREToJiJCNxERuomI0E1E6CYiQjcREbqJiNBNRIRuIiJ0ExG6iYjQTUSEbiIidBMRoZuICN1EhG4iInQTEaGbiAjdREToJiJCNxGh2395r1T+/+fOfcl/9blzb/XL4//yJf/VW8VOTuc7H1y6zkMYm2660Y1udKMb3ehGN7rRjW50oxvd6EY3utGNbp/RLfbOBz93bt3nvN4aldjubz3vwR2c+92DunVON93oRje60Y1udKMb3ehGN7rRjW50oxvd6Ea3r+q21U7+coJjj3/FLhzUvHPaH2jMbzxXdKMb3ehGN7rRjW50oxvd6EY3utGNbnSjG93oVvz8B/0qaaAO8h3rPTvvtq3qdqtfnjs5dKMb3ehGN7rRjW50oxvd6EY3utGNbnSjG93odo9usX5q7nzPFX8lQB8sOn/5oK0zGfvdK+4YutGNbnSjG93oRje60Y1udKMb3ehGN7rRjW50O/4tx1anc4OvIOmKHYy981ZXG5Nxa7rpRje60Y1udKMb3ehGN7rRjW50oxvd6EY3un1Gt1i151WvejX8aklxTzevetWrdKObV73qVbrRzatepRvd6OZVr9LtZt1KiqErSqVfPnfreedK4St63oNDOHe1z9X6V8pAN7rRjW50oxvd6EY3utGNbnSjG93oRje60e1i3WKt6Fap9MuY/d2QTnTmHJkr/uYuwrnbeutepBvd6EY3utGNbnSjG93oRje60Y1udKMb3ej2Gd3mZqPEzbnTP1exHRyzWKO61V2W/G5JdVvyVwLd6EY3utGNbnSjG93oRje60Y1udKMb3ehGt4d0m9ukWE32wPZvUViyRzfyfcUTbd2adKMb3ehGN7rRjW50oxvd6EY3utGNbnSjG93e1S023iW1YMkJjh2drRY49p1jux9rVGP/P7C1v3SjG93oRje60Y1udKMb3ehGN7rRjW50oxvdbtbt4I6WtHWdq3FFsbvVP5ZYcEWlGJuU2F1ON7rRjW50oxvd6EY3utGNbnSjG93oRje60e0q3Uq6y7lTeHCDD2ZOxs7FibWiW633nCOxD9rijG50oxvd6EY3utGNbnSjG93oRje60Y1udKPbVbrFztnWNsSeqKT4O/hBW/dirI3dWroH/tngyv8IoRvd6EY3utGNbnSjG93oRje60Y1udKMb3eh28Smcq6tKTnDsytlaq9iFVPL4B8EqKd+3/quBbnSjG93oRje60Y1udKMb3ehGN7rRjW50o9vNur13oGOHY+uDYuds626b6z3nFrazQt16lW50oxvd6EY3utGNbnSjG93oRje60Y1udKPbV3XbagnnDsdcXRX7knN965YjJe/8yx6V9K1zY5W7ROlGN7rRjW50oxvd6EY3utGNbnSjG93oRje6Xazb3KjEWOn8VrHCMWbBFsGdXW3sh2NX+4OdKd3oRje60Y1udKMb3ehGN7rRjW50oxvd6Ea35bJyrlI8eL5jJ3jr8UvGbKtxi+3gA/dEyUrSjW50oxvd6EY3utGNbnSjG93oRje60Y1udHtIt7kDPdfmbD3CwV0ooWGuYovtYAz3zss7hizd6EY3utGNbnSjG93oRje60Y1udKMb3ehGt8/ottXIdBadMXPnzndsQ2NTF2vrOpvcGDoly043utGNbnSjG93oRje60Y1udKMb3ehGN7rRrVu3rWZz7tWt4S9pgQ/u/o3X5FwOfo2tqy42v3SjG93oRje60Y1udKMb3ehGN7rRjW50oxvdPqNbrBacI6mkcuqsumJt7NyrJYcwdj2XzBHd6EY3utGNbnSjG93oRje60Y1udKMb3ehGN7qdfsIYlFsi/12Ykpvv4A9vfY25OSo5kyVA041udKMb3ehGN7rRjW50oxvd6EY3utGNbnR7qDPd2v6YuTeu1VzvObd0c61oycRubcrB2X+hM6Ub3ehGN7rRjW50oxvd6EY3utGNbnSjG93oVt2ZxjY4hs4DUzf3gFt9XKwVjV3Ac3fM3ErSjW50oxvd6EY3utGNbnSjG93oRje60Y1udKPb6rR3Vqixc7a1ViU3UInmc9u9dYscPFdznNGNbnSjG93oRje60Y1udKMb3ehGN7rRjW50+6puklm6uWO39URXXDmxi/+KkaQb3ehGN7rRjW50oxvd6EY3utGNbnSjG93oRrdX+tatHZ07HAcnNjaEB79krOedc2Su1469M93oRje60Y1udKMb3ehGN7rRjW50oxvd6EY3uq3WZHNfY26TtqYuNsBzH7Q1SAfPc2zotprcraaebnSjG93oRje60Y1udKMb3ehG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"
+    },
+    {
+      "_id": {
+        "$oid": "66c66bb6097da3e1f1b79d45"
+      },
+      "user": {
+        "$oid": "669a876e0e3c01e3e8822ac8"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c59154f473f074d3498953"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberDouble": "9.99"
+          },
+          "_id": {
+            "$oid": "66c66bb6097da3e1f1b79d46"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberDouble": "9.99"
+      },
+      "status": "completed",
+      "paymentStatus": "paid",
+      "paymentMethod": "pix",
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1724279734644"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1724279735430"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "asaasId": "pay_3k7c3xpx1qk1n64z",
+      "pixKey": "00020101021226800014br.gov.bcb.pix2558pix.asaas.com/qr/cobv/71038096-9c3d-4346-ac0a-6105335ac27f5204000053039865802BR5920MONACO SOLUCOES LTDA6007Barueri61080645400062070503***63049359",
+      "pixQRCode": "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"
+    },
+    {
+      "_id": {
+        "$oid": "66ca2fbf10f36d139fecdd48"
+      },
+      "user": {
+        "$oid": "667757512ed9c33fef985652"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c59154f473f074d3498953"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberDouble": "9.99"
+          },
+          "_id": {
+            "$oid": "66ca2fbf10f36d139fecdd49"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberDouble": "9.99"
+      },
+      "status": "completed",
+      "paymentStatus": "paid",
+      "paymentMethod": "pix",
+      "paymentProvider": "starkbank",
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1724526527476"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1724526528260"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "paymentProviderReferenceId": "e68dad08120c475dbcf6700d4e209ee0",
+      "pixKey": "00020101021226790014br.gov.bcb.pix2557brcode.starkinfra.com/v2/e68dad08120c475dbcf6700d4e209ee05204000053039865802BR5920Monaco Solucoes Ltda6007Barueri62070503***6304AE1A",
+      "pixQRCode": "https://api.starkbank.com/v2/dynamic-brcode/e68dad08120c475dbcf6700d4e209ee0.png"
+    },
+    {
+      "_id": {
+        "$oid": "66ca2fc12f9b6b8c07cd9c08"
+      },
+      "user": {
+        "$oid": "6679d9ea881f6e8f854ca7d7"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c59154f473f074d3498953"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberDouble": "9.99"
+          },
+          "_id": {
+            "$oid": "66ca2fc12f9b6b8c07cd9c09"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberDouble": "9.99"
+      },
+      "status": "completed",
+      "paymentStatus": "paid",
+      "paymentMethod": "pix",
+      "paymentProvider": "starkbank",
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1724526529709"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1724526530377"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "paymentProviderReferenceId": "67737227ae184658987068409275ca91",
+      "pixKey": "00020101021226790014br.gov.bcb.pix2557brcode.starkinfra.com/v2/67737227ae184658987068409275ca915204000053039865802BR5920Monaco Solucoes Ltda6007Barueri62070503***63048130",
+      "pixQRCode": "https://api.starkbank.com/v2/dynamic-brcode/67737227ae184658987068409275ca91.png"
+    },
+    {
+      "_id": {
+        "$oid": "66ca3438a334e871706029e8"
+      },
+      "user": {
+        "$oid": "667747f6de789fa81e6eac62"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c59154f473f074d3498953"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberDouble": "9.99"
+          },
+          "_id": {
+            "$oid": "66ca3438a334e871706029e9"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberDouble": "9.99"
+      },
+      "status": "completed",
+      "paymentStatus": "paid",
+      "paymentMethod": "pix",
+      "paymentProvider": "starkbank",
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1724527672920"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1724527673553"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "paymentProviderReferenceId": "d6727c2f434f47dfbf77daaae8fbe629",
+      "pixKey": "00020101021226790014br.gov.bcb.pix2557brcode.starkinfra.com/v2/d6727c2f434f47dfbf77daaae8fbe6295204000053039865802BR5920Monaco Solucoes Ltda6007Barueri62070503***6304051F",
+      "pixQRCode": "https://api.starkbank.com/v2/dynamic-brcode/d6727c2f434f47dfbf77daaae8fbe629.png"
+    },
+    {
+      "_id": {
+        "$oid": "66ca34fd83e512c78de9d71c"
+      },
+      "user": {
+        "$oid": "6679d9ea881f6e8f854ca7d7"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c59154f473f074d3498953"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberDouble": "9.99"
+          },
+          "_id": {
+            "$oid": "66ca34fd83e512c78de9d71d"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberDouble": "9.99"
+      },
+      "status": "completed",
+      "paymentStatus": "paid",
+      "paymentMethod": "pix",
+      "paymentProvider": "starkbank",
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1724527869638"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1724527870251"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "paymentProviderReferenceId": "54ec9fba5e4740bfbad655ec46ff1573",
+      "pixKey": "00020101021226790014br.gov.bcb.pix2557brcode.starkinfra.com/v2/54ec9fba5e4740bfbad655ec46ff15735204000053039865802BR5920Monaco Solucoes Ltda6007Barueri62070503***63045E08",
+      "pixQRCode": "https://api.starkbank.com/v2/dynamic-brcode/54ec9fba5e4740bfbad655ec46ff1573.png"
+    },
+    {
+      "_id": {
+        "$oid": "66ca366e74e98e2afd64aff3"
+      },
+      "user": {
+        "$oid": "667757512ed9c33fef985652"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c59154f473f074d3498953"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberDouble": "9.99"
+          },
+          "_id": {
+            "$oid": "66ca366e74e98e2afd64aff4"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberDouble": "9.99"
+      },
+      "status": "completed",
+      "paymentStatus": "paid",
+      "paymentMethod": "pix",
+      "paymentProvider": "starkbank",
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1724528238149"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1724528238745"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "paymentProviderReferenceId": "9f5d23fb59334906a7337669a34afca7",
+      "pixKey": "00020101021226790014br.gov.bcb.pix2557brcode.starkinfra.com/v2/9f5d23fb59334906a7337669a34afca75204000053039865802BR5920Monaco Solucoes Ltda6007Barueri62070503***6304E596",
+      "pixQRCode": "https://api.starkbank.com/v2/dynamic-brcode/9f5d23fb59334906a7337669a34afca7.png"
+    },
+    {
+      "_id": {
+        "$oid": "66ca36e0d67be54f8c4134a5"
+      },
+      "user": {
+        "$oid": "66880387c4ec7f972ddf4055"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c59154f473f074d3498953"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberDouble": "9.99"
+          },
+          "_id": {
+            "$oid": "66ca36e0d67be54f8c4134a6"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberDouble": "9.99"
+      },
+      "status": "completed",
+      "paymentStatus": "paid",
+      "paymentMethod": "pix",
+      "paymentProvider": "starkbank",
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1724528352348"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1724528352680"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "paymentProviderReferenceId": "c48d317aa5364611af0e8f6bc5b21bad",
+      "pixKey": "00020101021226790014br.gov.bcb.pix2557brcode.starkinfra.com/v2/c48d317aa5364611af0e8f6bc5b21bad5204000053039865802BR5920Monaco Solucoes Ltda6007Barueri62070503***6304AD10",
+      "pixQRCode": "https://api.starkbank.com/v2/dynamic-brcode/c48d317aa5364611af0e8f6bc5b21bad.png"
+    },
+    {
+      "_id": {
+        "$oid": "66ca372ca334e87170602ac4"
+      },
+      "user": {
+        "$oid": "6679d9ea881f6e8f854ca7d7"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c59154f473f074d3498953"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberDouble": "9.99"
+          },
+          "_id": {
+            "$oid": "66ca372ca334e87170602ac5"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberDouble": "9.99"
+      },
+      "status": "completed",
+      "paymentStatus": "paid",
+      "paymentMethod": "pix",
+      "paymentProvider": "starkbank",
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1724528428336"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1724528428721"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "paymentProviderReferenceId": "1e9b5f00a6cc47d1a9029ebab58908d0",
+      "pixKey": "00020101021226790014br.gov.bcb.pix2557brcode.starkinfra.com/v2/1e9b5f00a6cc47d1a9029ebab58908d05204000053039865802BR5920Monaco Solucoes Ltda6007Barueri62070503***6304ED17",
+      "pixQRCode": "https://api.starkbank.com/v2/dynamic-brcode/1e9b5f00a6cc47d1a9029ebab58908d0.png"
+    },
+    {
+      "_id": {
+        "$oid": "66ca37562f9b6b8c07cd9d49"
+      },
+      "user": {
+        "$oid": "667747f6de789fa81e6eac62"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c59154f473f074d3498953"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberDouble": "9.99"
+          },
+          "_id": {
+            "$oid": "66ca37562f9b6b8c07cd9d4a"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberDouble": "9.99"
+      },
+      "status": "completed",
+      "paymentStatus": "paid",
+      "paymentMethod": "pix",
+      "paymentProvider": "starkbank",
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1724528470923"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1724528471244"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "paymentProviderReferenceId": "2ec8c68ed95b4266a79ff4656f97cdbb",
+      "pixKey": "00020101021226790014br.gov.bcb.pix2557brcode.starkinfra.com/v2/2ec8c68ed95b4266a79ff4656f97cdbb5204000053039865802BR5920Monaco Solucoes Ltda6007Barueri62070503***6304D7B9",
+      "pixQRCode": "https://api.starkbank.com/v2/dynamic-brcode/2ec8c68ed95b4266a79ff4656f97cdbb.png"
+    },
+    {
+      "_id": {
+        "$oid": "66ca511c688b051c99c6d614"
+      },
+      "user": {
+        "$oid": "66774e07ea21debfcfe91d50"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c59154f473f074d3498953"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberDouble": "9.99"
+          },
+          "_id": {
+            "$oid": "66ca511c688b051c99c6d615"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberDouble": "9.99"
+      },
+      "status": "completed",
+      "paymentStatus": "paid",
+      "paymentMethod": "pix",
+      "paymentProvider": "starkbank",
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1724535068484"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1724535069105"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "paymentProviderReferenceId": "635381f348f541f6a719a404c38e1980",
+      "pixKey": "00020101021226790014br.gov.bcb.pix2557brcode.starkinfra.com/v2/635381f348f541f6a719a404c38e19805204000053039865802BR5920Monaco Solucoes Ltda6007Barueri62070503***6304919D",
+      "pixQRCode": "https://api.starkbank.com/v2/dynamic-brcode/635381f348f541f6a719a404c38e1980.png"
+    },
+    {
+      "_id": {
+        "$oid": "66ca5ed7fa646a3d55e299d4"
+      },
+      "user": {
+        "$oid": "667757512ed9c33fef985652"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c59154f473f074d3498953"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberDouble": "9.99"
+          },
+          "_id": {
+            "$oid": "66ca5ed7fa646a3d55e299d5"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberDouble": "9.99"
+      },
+      "status": "cancelled",
+      "paymentStatus": "failed",
+      "paymentMethod": "pix",
+      "paymentProvider": "starkbank",
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1724538583387"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1724538583919"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "paymentProviderReferenceId": "6c20bddc18f94517bbfa3576345dd615",
+      "pixKey": "00020101021226790014br.gov.bcb.pix2557brcode.starkinfra.com/v2/6c20bddc18f94517bbfa3576345dd6155204000053039865802BR5920Monaco Solucoes Ltda6007Barueri62070503***63046C7B",
+      "pixQRCode": "https://api.starkbank.com/v2/dynamic-brcode/6c20bddc18f94517bbfa3576345dd615.png"
+    },
+    {
+      "_id": {
+        "$oid": "66ca6a893fdb1c7da52262e9"
+      },
+      "user": {
+        "$oid": "66774e07ea21debfcfe91d50"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c59154f473f074d3498953"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberDouble": "9.99"
+          },
+          "_id": {
+            "$oid": "66ca6a893fdb1c7da52262ea"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberDouble": "9.99"
+      },
+      "status": "cancelled",
+      "paymentStatus": "failed",
+      "paymentMethod": "pix",
+      "paymentProvider": "starkbank",
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1724541577712"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1724541578151"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "paymentProviderReferenceId": "8e765eec0b9f4b0cad97c0b429fdb542",
+      "pixKey": "00020101021226790014br.gov.bcb.pix2557brcode.starkinfra.com/v2/8e765eec0b9f4b0cad97c0b429fdb5425204000053039865802BR5920Monaco Solucoes Ltda6007Barueri62070503***6304E1C0",
+      "pixQRCode": "https://api.starkbank.com/v2/dynamic-brcode/8e765eec0b9f4b0cad97c0b429fdb542.png"
+    },
+    {
+      "_id": {
+        "$oid": "66ca6b1fb4e6c1793554267c"
+      },
+      "user": {
+        "$oid": "6679d9ea881f6e8f854ca7d7"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c59154f473f074d3498953"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberDouble": "9.99"
+          },
+          "_id": {
+            "$oid": "66ca6b1fb4e6c1793554267d"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberDouble": "9.99"
+      },
+      "status": "completed",
+      "paymentStatus": "paid",
+      "paymentMethod": "pix",
+      "paymentProvider": "starkbank",
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1724541727875"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1724541728266"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "paymentProviderReferenceId": "510d288ab8d24c5f8bb0eb2899d86229",
+      "pixKey": "00020101021226790014br.gov.bcb.pix2557brcode.starkinfra.com/v2/510d288ab8d24c5f8bb0eb2899d862295204000053039865802BR5920Monaco Solucoes Ltda6007Barueri62070503***63045215",
+      "pixQRCode": "https://api.starkbank.com/v2/dynamic-brcode/510d288ab8d24c5f8bb0eb2899d86229.png"
+    },
+    {
+      "_id": {
+        "$oid": "66cc8aaf6915d8cbbe215989"
+      },
+      "user": {
+        "$oid": "66c91bc4d9ae4854ec7a4e8e"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c59154f473f074d3498953"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberDouble": "9.99"
+          },
+          "_id": {
+            "$oid": "66cc8aaf6915d8cbbe21598a"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberDouble": "9.99"
+      },
+      "status": "cancelled",
+      "paymentStatus": "failed",
+      "paymentMethod": "pix",
+      "paymentProvider": "starkbank",
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1724680879406"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1724680879915"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "paymentProviderReferenceId": "7a01e2fb2bb5445ab1fd2f38a221d87b",
+      "pixKey": "00020101021226790014br.gov.bcb.pix2557brcode.starkinfra.com/v2/7a01e2fb2bb5445ab1fd2f38a221d87b5204000053039865802BR5920Monaco Solucoes Ltda6007Barueri62070503***6304C277",
+      "pixQRCode": "https://api.starkbank.com/v2/dynamic-brcode/7a01e2fb2bb5445ab1fd2f38a221d87b.png"
+    },
+    {
+      "_id": {
+        "$oid": "66cc8b53a877e2abf954a435"
+      },
+      "user": {
+        "$oid": "66774e35500a9c884a85d3a9"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c59154f473f074d3498953"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberDouble": "9.99"
+          },
+          "_id": {
+            "$oid": "66cc8b53a877e2abf954a436"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberDouble": "9.99"
+      },
+      "status": "completed",
+      "paymentStatus": "paid",
+      "paymentMethod": "pix",
+      "paymentProvider": "starkbank",
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1724681043921"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1724681044438"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "paymentProviderReferenceId": "a3a513c0ab1c45efbe977452d581a3fd",
+      "pixKey": "00020101021226790014br.gov.bcb.pix2557brcode.starkinfra.com/v2/a3a513c0ab1c45efbe977452d581a3fd5204000053039865802BR5920Monaco Solucoes Ltda6007Barueri62070503***6304C541",
+      "pixQRCode": "https://api.starkbank.com/v2/dynamic-brcode/a3a513c0ab1c45efbe977452d581a3fd.png"
+    },
+    {
+      "_id": {
+        "$oid": "66d3b2e697730cd8622dd212"
+      },
+      "user": {
+        "$oid": "6679d9ea881f6e8f854ca7d7"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c59157c73704ea955fc6aa"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberDouble": "35.99"
+          },
+          "_id": {
+            "$oid": "66d3b2e697730cd8622dd213"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberDouble": "35.99"
+      },
+      "status": "cancelled",
+      "paymentStatus": "failed",
+      "paymentMethod": "pix",
+      "paymentProvider": "starkbank",
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1725149926258"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1725149926660"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "paymentProviderReferenceId": "af1590f430eb478e9bcfdc5d2a3a0499",
+      "pixKey": "00020101021226790014br.gov.bcb.pix2557brcode.starkinfra.com/v2/af1590f430eb478e9bcfdc5d2a3a04995204000053039865802BR5920Monaco Solucoes Ltda6007Barueri62070503***63044B92",
+      "pixQRCode": "https://api.starkbank.com/v2/dynamic-brcode/af1590f430eb478e9bcfdc5d2a3a0499.png"
+    },
+    {
+      "_id": {
+        "$oid": "66d3b2fe97730cd8622dd277"
+      },
+      "user": {
+        "$oid": "6679d9ea881f6e8f854ca7d7"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c59154f473f074d3498953"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberDouble": "9.99"
+          },
+          "_id": {
+            "$oid": "66d3b2fe97730cd8622dd278"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberDouble": "9.99"
+      },
+      "status": "cancelled",
+      "paymentStatus": "failed",
+      "paymentMethod": "pix",
+      "paymentProvider": "starkbank",
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1725149950509"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1725149950834"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "paymentProviderReferenceId": "ffb821401217401dad7cdc49881d6872",
+      "pixKey": "00020101021226790014br.gov.bcb.pix2557brcode.starkinfra.com/v2/ffb821401217401dad7cdc49881d68725204000053039865802BR5920Monaco Solucoes Ltda6007Barueri62070503***6304CCC4",
+      "pixQRCode": "https://api.starkbank.com/v2/dynamic-brcode/ffb821401217401dad7cdc49881d6872.png"
+    },
+    {
+      "_id": {
+        "$oid": "66d5b1669882bbfd26865d85"
+      },
+      "user": {
+        "$oid": "66774e35500a9c884a85d3a9"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c5915436165ba67af36bc9"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberDouble": "19.99"
+          },
+          "_id": {
+            "$oid": "66d5b1669882bbfd26865d86"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberDouble": "19.99"
+      },
+      "status": "cancelled",
+      "paymentStatus": "failed",
+      "paymentMethod": "pix",
+      "paymentProvider": "starkbank",
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1725280614923"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1725280615637"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "paymentProviderReferenceId": "cb02586458e5455cab4b54ea652a92c3",
+      "pixKey": "00020101021226790014br.gov.bcb.pix2557brcode.starkinfra.com/v2/cb02586458e5455cab4b54ea652a92c35204000053039865802BR5920Monaco Solucoes Ltda6007Barueri62070503***630496E7",
+      "pixQRCode": "https://api.starkbank.com/v2/dynamic-brcode/cb02586458e5455cab4b54ea652a92c3.png"
+    },
+    {
+      "_id": {
+        "$oid": "66da2771786bfe1908d58171"
+      },
+      "user": {
+        "$oid": "667757512ed9c33fef985652"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c59157c73704ea955fc6aa"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberDouble": "35.99"
+          },
+          "_id": {
+            "$oid": "66da2771786bfe1908d58172"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberDouble": "35.99"
+      },
+      "status": "cancelled",
+      "paymentStatus": "failed",
+      "paymentMethod": "pix",
+      "paymentProvider": "starkbank",
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1725572977057"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1725572977653"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "paymentProviderReferenceId": "8b9634f636dc4571904e29d4054bde66",
+      "pixKey": "00020101021226790014br.gov.bcb.pix2557brcode.starkinfra.com/v2/8b9634f636dc4571904e29d4054bde665204000053039865802BR5920Monaco Solucoes Ltda6007Barueri62070503***6304B590",
+      "pixQRCode": "https://api.starkbank.com/v2/dynamic-brcode/8b9634f636dc4571904e29d4054bde66.png"
+    },
+    {
+      "_id": {
+        "$oid": "66da5b3b6224149a798f2dc7"
+      },
+      "user": {
+        "$oid": "6683f01d1280128145592f61"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c59157c73704ea955fc6aa"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberDouble": "35.99"
+          },
+          "_id": {
+            "$oid": "66da5b3b6224149a798f2dc8"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberDouble": "35.99"
+      },
+      "status": "completed",
+      "paymentStatus": "paid",
+      "paymentMethod": "pix",
+      "paymentProvider": "starkbank",
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1725586235190"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1725586235769"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "paymentProviderReferenceId": "e2e20cb9746148ffb74888c93449a2c2",
+      "pixKey": "00020101021226790014br.gov.bcb.pix2557brcode.starkinfra.com/v2/e2e20cb9746148ffb74888c93449a2c25204000053039865802BR5920Monaco Solucoes Ltda6007Barueri62070503***630499F9",
+      "pixQRCode": "https://api.starkbank.com/v2/dynamic-brcode/e2e20cb9746148ffb74888c93449a2c2.png"
+    },
+    {
+      "_id": {
+        "$oid": "66dc5072d40e312aa5280791"
+      },
+      "user": {
+        "$oid": "66b7da5d8ff0f01b330cfeb7"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c59157c73704ea955fc6aa"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberDouble": "35.99"
+          },
+          "_id": {
+            "$oid": "66dc5072d40e312aa5280792"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberDouble": "35.99"
+      },
+      "status": "completed",
+      "paymentStatus": "paid",
+      "paymentMethod": "pix",
+      "paymentProvider": "starkbank",
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1725714546678"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1725714547239"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "paymentProviderReferenceId": "266025d8ef6b4c118788ddc4a05f7281",
+      "pixKey": "00020101021226790014br.gov.bcb.pix2557brcode.starkinfra.com/v2/266025d8ef6b4c118788ddc4a05f72815204000053039865802BR5920Monaco Solucoes Ltda6007Barueri62070503***63044C59",
+      "pixQRCode": "https://api.starkbank.com/v2/dynamic-brcode/266025d8ef6b4c118788ddc4a05f7281.png"
+    },
+    {
+      "_id": {
+        "$oid": "66dcbae2fe4f5c495fc72185"
+      },
+      "user": {
+        "$oid": "6679d9ea881f6e8f854ca7d7"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c59154f473f074d3498953"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberDouble": "4.99"
+          },
+          "_id": {
+            "$oid": "66dcbae2fe4f5c495fc72186"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberDouble": "2.495"
+      },
+      "status": "cancelled",
+      "paymentStatus": "failed",
+      "paymentMethod": "pix",
+      "paymentProvider": "starkbank",
+      "couponCode": "MONACO50",
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1725741794778"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1725741795303"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "paymentProviderReferenceId": "2b480e8fd25147c48c445d5eed9f5bc7",
+      "pixKey": "00020101021226790014br.gov.bcb.pix2557brcode.starkinfra.com/v2/2b480e8fd25147c48c445d5eed9f5bc75204000053039865802BR5920Monaco Solucoes Ltda6007Barueri62070503***6304E1D6",
+      "pixQRCode": "https://api.starkbank.com/v2/dynamic-brcode/2b480e8fd25147c48c445d5eed9f5bc7.png"
+    },
+    {
+      "_id": {
+        "$oid": "66dcbb5bf83e817544b9c5e1"
+      },
+      "user": {
+        "$oid": "667757512ed9c33fef985652"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c59154f473f074d3498953"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberDouble": "4.99"
+          },
+          "_id": {
+            "$oid": "66dcbb5bf83e817544b9c5e2"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberDouble": "2.495"
+      },
+      "status": "cancelled",
+      "paymentStatus": "failed",
+      "paymentMethod": "pix",
+      "paymentProvider": "starkbank",
+      "couponCode": "MONACO50",
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1725741915155"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1725741915896"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "paymentProviderReferenceId": "0284ff8d00eb4c8fadbdcb9ca4cf48de",
+      "pixKey": "00020101021226790014br.gov.bcb.pix2557brcode.starkinfra.com/v2/0284ff8d00eb4c8fadbdcb9ca4cf48de5204000053039865802BR5920Monaco Solucoes Ltda6007Barueri62070503***6304DD01",
+      "pixQRCode": "https://api.starkbank.com/v2/dynamic-brcode/0284ff8d00eb4c8fadbdcb9ca4cf48de.png"
+    },
+    {
+      "_id": {
+        "$oid": "66dcbc079228f002265e308d"
+      },
+      "user": {
+        "$oid": "667747f6de789fa81e6eac62"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c59154f473f074d3498953"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberDouble": "9.99"
+          },
+          "_id": {
+            "$oid": "66dcbc079228f002265e308e"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberDouble": "9.99"
+      },
+      "status": "cancelled",
+      "paymentStatus": "failed",
+      "paymentMethod": "pix",
+      "paymentProvider": "starkbank",
+      "couponCode": null,
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1725742087787"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1725742088163"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "paymentProviderReferenceId": "0e386042dc0d4ef2af5e16ce30d778ee",
+      "pixKey": "00020101021226790014br.gov.bcb.pix2557brcode.starkinfra.com/v2/0e386042dc0d4ef2af5e16ce30d778ee5204000053039865802BR5920Monaco Solucoes Ltda6007Barueri62070503***630459DD",
+      "pixQRCode": "https://api.starkbank.com/v2/dynamic-brcode/0e386042dc0d4ef2af5e16ce30d778ee.png"
+    },
+    {
+      "_id": {
+        "$oid": "66dcc248ae5967ad980dc78f"
+      },
+      "user": {
+        "$oid": "667747f6de789fa81e6eac62"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c59154f473f074d3498953"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberDouble": "9.99"
+          },
+          "_id": {
+            "$oid": "66dcc248ae5967ad980dc790"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberDouble": "9.99"
+      },
+      "status": "cancelled",
+      "paymentStatus": "failed",
+      "paymentMethod": "pix",
+      "paymentProvider": "starkbank",
+      "couponCode": null,
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1725743688471"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1725743689002"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "paymentProviderReferenceId": "f72ed56c837f463c8aadc29d5763c8c1",
+      "pixKey": "00020101021226790014br.gov.bcb.pix2557brcode.starkinfra.com/v2/f72ed56c837f463c8aadc29d5763c8c15204000053039865802BR5920Monaco Solucoes Ltda6007Barueri62070503***6304F5F9",
+      "pixQRCode": "https://api.starkbank.com/v2/dynamic-brcode/f72ed56c837f463c8aadc29d5763c8c1.png"
+    },
+    {
+      "_id": {
+        "$oid": "66dcf294532376ce8674148e"
+      },
+      "user": {
+        "$oid": "66a456dbec35678359738d55"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c59157c73704ea955fc6aa"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberDouble": "17.99"
+          },
+          "_id": {
+            "$oid": "66dcf294532376ce8674148f"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberDouble": "17.99"
+      },
+      "status": "completed",
+      "paymentStatus": "paid",
+      "paymentMethod": "pix",
+      "paymentProvider": "starkbank",
+      "couponCode": "MONACO50",
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1725756052137"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1725756052554"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "paymentProviderReferenceId": "07437f3788dc4cccbe983ca3728e50c1",
+      "pixKey": "00020101021226790014br.gov.bcb.pix2557brcode.starkinfra.com/v2/07437f3788dc4cccbe983ca3728e50c15204000053039865802BR5920Monaco Solucoes Ltda6007Barueri62070503***630493FF",
+      "pixQRCode": "https://api.starkbank.com/v2/dynamic-brcode/07437f3788dc4cccbe983ca3728e50c1.png"
+    },
+    {
+      "_id": {
+        "$oid": "66dcfcfff689aea9a0b3f860"
+      },
+      "user": {
+        "$oid": "66db7b127b36c2087ef3952d"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c59157c73704ea955fc6aa"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberDouble": "17.99"
+          },
+          "_id": {
+            "$oid": "66dcfcfff689aea9a0b3f861"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberDouble": "17.99"
+      },
+      "status": "completed",
+      "paymentStatus": "paid",
+      "paymentMethod": "pix",
+      "paymentProvider": "starkbank",
+      "couponCode": "Monaco50",
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1725758719385"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1725758719995"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "paymentProviderReferenceId": "b1284c32f8d848ceac9034b05c98d3dd",
+      "pixKey": "00020101021226790014br.gov.bcb.pix2557brcode.starkinfra.com/v2/b1284c32f8d848ceac9034b05c98d3dd5204000053039865802BR5920Monaco Solucoes Ltda6007Barueri62070503***630477F1",
+      "pixQRCode": "https://api.starkbank.com/v2/dynamic-brcode/b1284c32f8d848ceac9034b05c98d3dd.png"
+    },
+    {
+      "_id": {
+        "$oid": "66ddea67574ede614ce62fa9"
+      },
+      "user": {
+        "$oid": "6683f01d1280128145592f61"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c59157c73704ea955fc6aa"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberDouble": "17.99"
+          },
+          "_id": {
+            "$oid": "66ddea67574ede614ce62faa"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberDouble": "17.99"
+      },
+      "status": "completed",
+      "paymentStatus": "paid",
+      "paymentMethod": "pix",
+      "paymentProvider": "starkbank",
+      "couponCode": "MONACO50",
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1725819495648"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1725819496073"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "paymentProviderReferenceId": "1feb52d84df5441180505958bf2345ee",
+      "pixKey": "00020101021226790014br.gov.bcb.pix2557brcode.starkinfra.com/v2/1feb52d84df5441180505958bf2345ee5204000053039865802BR5920Monaco Solucoes Ltda6007Barueri62070503***6304F9FB",
+      "pixQRCode": "https://api.starkbank.com/v2/dynamic-brcode/1feb52d84df5441180505958bf2345ee.png"
+    },
+    {
+      "_id": {
+        "$oid": "66df117e1c7deee837ac7d4e"
+      },
+      "user": {
+        "$oid": "667747f6de789fa81e6eac62"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c59154f473f074d3498953"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberDouble": "9.99"
+          },
+          "_id": {
+            "$oid": "66df117e1c7deee837ac7d4f"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberDouble": "9.99"
+      },
+      "status": "cancelled",
+      "paymentStatus": "failed",
+      "paymentMethod": "pix",
+      "paymentProvider": "starkbank",
+      "couponCode": null,
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1725895038048"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1725895038493"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "paymentProviderReferenceId": "1977bc8e44b44b1ba720af5fa2288e32",
+      "pixKey": "00020101021226790014br.gov.bcb.pix2557brcode.starkinfra.com/v2/1977bc8e44b44b1ba720af5fa2288e325204000053039865802BR5920Monaco Solucoes Ltda6007Barueri62070503***6304EA46",
+      "pixQRCode": "https://api.starkbank.com/v2/dynamic-brcode/1977bc8e44b44b1ba720af5fa2288e32.png"
+    },
+    {
+      "_id": {
+        "$oid": "66e4b6b79bd25dbc74e91e31"
+      },
+      "user": {
+        "$oid": "66cbdf4346f1d3cca0f1a137"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c59157c73704ea955fc6aa"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberDouble": "17.99"
+          },
+          "_id": {
+            "$oid": "66e4b6b79bd25dbc74e91e32"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberDouble": "17.99"
+      },
+      "status": "completed",
+      "paymentStatus": "paid",
+      "paymentMethod": "pix",
+      "paymentProvider": "starkbank",
+      "couponCode": "MONACO50",
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1726265015543"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1726265016362"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "paymentProviderReferenceId": "41360b0215e34d388dc44699ffd3c864",
+      "pixKey": "00020101021226790014br.gov.bcb.pix2557brcode.starkinfra.com/v2/41360b0215e34d388dc44699ffd3c8645204000053039865802BR5920Monaco Solucoes Ltda6007Barueri62070503***63046E8F",
+      "pixQRCode": "https://api.starkbank.com/v2/dynamic-brcode/41360b0215e34d388dc44699ffd3c864.png"
+    },
+    {
+      "_id": {
+        "$oid": "66e7a64beb2b00e8a4252a2b"
+      },
+      "user": {
+        "$oid": "66e7a279aadfacc860fdc002"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c5915436165ba67af36bc9"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberDouble": "9.49"
+          },
+          "_id": {
+            "$oid": "66e7a64beb2b00e8a4252a2c"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberDouble": "9.49"
+      },
+      "status": "completed",
+      "paymentStatus": "paid",
+      "paymentMethod": "pix",
+      "paymentProvider": "starkbank",
+      "couponCode": "MONACO50",
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1726457419348"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1726457420165"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "paymentProviderReferenceId": "e66545beac734c68b29a97bca9bf6c7f",
+      "pixKey": "00020101021226790014br.gov.bcb.pix2557brcode.starkinfra.com/v2/e66545beac734c68b29a97bca9bf6c7f5204000053039865802BR5920Monaco Solucoes Ltda6007Barueri62070503***63042785",
+      "pixQRCode": "https://api.starkbank.com/v2/dynamic-brcode/e66545beac734c68b29a97bca9bf6c7f.png"
+    },
+    {
+      "_id": {
+        "$oid": "66e891a7a68e233c07e7e9ce"
+      },
+      "user": {
+        "$oid": "667757512ed9c33fef985652"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c59157c73704ea955fc6aa"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberDouble": "17.99"
+          },
+          "_id": {
+            "$oid": "66e891a7a68e233c07e7e9cf"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberDouble": "17.99"
+      },
+      "status": "cancelled",
+      "paymentStatus": "failed",
+      "paymentMethod": "pix",
+      "paymentProvider": "starkbank",
+      "couponCode": "MONACO50",
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1726517671782"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1726517672382"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "paymentProviderReferenceId": "d3ce46a9788b4ce3957717769ea7ef9c",
+      "pixKey": "00020101021226790014br.gov.bcb.pix2557brcode.starkinfra.com/v2/d3ce46a9788b4ce3957717769ea7ef9c5204000053039865802BR5920Monaco Solucoes Ltda6007Barueri62070503***6304A143",
+      "pixQRCode": "https://api.starkbank.com/v2/dynamic-brcode/d3ce46a9788b4ce3957717769ea7ef9c.png"
+    },
+    {
+      "_id": {
+        "$oid": "66eb6e7e2b3b72683658b35b"
+      },
+      "user": {
+        "$oid": "66ad4b3c9c9ea7a6a304614d"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c59154f473f074d3498953"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberDouble": "4.99"
+          },
+          "_id": {
+            "$oid": "66eb6e7e2b3b72683658b35c"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberDouble": "4.99"
+      },
+      "status": "completed",
+      "paymentStatus": "paid",
+      "paymentMethod": "pix",
+      "paymentProvider": "starkbank",
+      "couponCode": "MONACO50",
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1726705278780"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1726705279352"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "paymentProviderReferenceId": "7ebebc285f1242d4aef8fc15c2a70d2e",
+      "pixKey": "00020101021226790014br.gov.bcb.pix2557brcode.starkinfra.com/v2/7ebebc285f1242d4aef8fc15c2a70d2e5204000053039865802BR5920Monaco Solucoes Ltda6007Barueri62070503***63049624",
+      "pixQRCode": "https://api.starkbank.com/v2/dynamic-brcode/7ebebc285f1242d4aef8fc15c2a70d2e.png"
+    },
+    {
+      "_id": {
+        "$oid": "66ed70ab9807af5f0719b523"
+      },
+      "user": {
+        "$oid": "66965ff1f23f7a909e470619"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c59157c73704ea955fc6aa"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberDouble": "17.99"
+          },
+          "_id": {
+            "$oid": "66ed70ab9807af5f0719b524"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberDouble": "17.99"
+      },
+      "status": "completed",
+      "paymentStatus": "paid",
+      "paymentMethod": "pix",
+      "paymentProvider": "starkbank",
+      "couponCode": "MONACO50",
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1726836907560"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1726836908148"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "paymentProviderReferenceId": "aa699ec08f6c47aeb5915ce5d247d214",
+      "pixKey": "00020101021226790014br.gov.bcb.pix2557brcode.starkinfra.com/v2/aa699ec08f6c47aeb5915ce5d247d2145204000053039865802BR5920Monaco Solucoes Ltda6007Barueri62070503***630494A0",
+      "pixQRCode": "https://api.starkbank.com/v2/dynamic-brcode/aa699ec08f6c47aeb5915ce5d247d214.png"
+    },
+    {
+      "_id": {
+        "$oid": "66ee2c7425755d600241d240"
+      },
+      "user": {
+        "$oid": "6683f01d1280128145592f61"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c59157c73704ea955fc6aa"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberDouble": "35.99"
+          },
+          "_id": {
+            "$oid": "66ee2c7425755d600241d241"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberDouble": "35.99"
+      },
+      "status": "completed",
+      "paymentStatus": "paid",
+      "paymentMethod": "pix",
+      "paymentProvider": "starkbank",
+      "couponCode": null,
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1726884980935"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1726884981332"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "paymentProviderReferenceId": "fe5e6aa6124f4cb089a4e9976e14176e",
+      "pixKey": "00020101021226790014br.gov.bcb.pix2557brcode.starkinfra.com/v2/fe5e6aa6124f4cb089a4e9976e14176e5204000053039865802BR5920Monaco Solucoes Ltda6007Barueri62070503***6304C3AF",
+      "pixQRCode": "https://api.starkbank.com/v2/dynamic-brcode/fe5e6aa6124f4cb089a4e9976e14176e.png"
+    },
+    {
+      "_id": {
+        "$oid": "66ef0f0564ee70813f7132bd"
+      },
+      "user": {
+        "$oid": "66a456dbec35678359738d55"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c59157c73704ea955fc6aa"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberDouble": "35.99"
+          },
+          "_id": {
+            "$oid": "66ef0f0564ee70813f7132be"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberDouble": "35.99"
+      },
+      "status": "completed",
+      "paymentStatus": "paid",
+      "paymentMethod": "pix",
+      "paymentProvider": "starkbank",
+      "couponCode": null,
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1726942981455"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1726942981860"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "paymentProviderReferenceId": "be33e7fa88e74e2f95991572ef79d64d",
+      "pixKey": "00020101021226790014br.gov.bcb.pix2557brcode.starkinfra.com/v2/be33e7fa88e74e2f95991572ef79d64d5204000053039865802BR5920Monaco Solucoes Ltda6007Barueri62070503***6304ABD0",
+      "pixQRCode": "https://api.starkbank.com/v2/dynamic-brcode/be33e7fa88e74e2f95991572ef79d64d.png"
+    },
+    {
+      "_id": {
+        "$oid": "6706a10127ca967bb466487e"
+      },
+      "user": {
+        "$oid": "66e073952d565537d99928ea"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c5915436165ba67af36bc9"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberDouble": "9.49"
+          },
+          "_id": {
+            "$oid": "6706a10127ca967bb466487f"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberDouble": "9.49"
+      },
+      "status": "completed",
+      "paymentStatus": "paid",
+      "paymentMethod": "pix",
+      "paymentProvider": "starkbank",
+      "couponCode": "MONACO50",
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1728487681470"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1728487682454"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "paymentProviderReferenceId": "f1bfba8aaaef44a39dc16b33b68bcf75",
+      "pixKey": "00020101021226790014br.gov.bcb.pix2557brcode.starkinfra.com/v2/f1bfba8aaaef44a39dc16b33b68bcf755204000053039865802BR5920Monaco Solucoes Ltda6007Barueri62070503***630492AF",
+      "pixQRCode": "https://api.starkbank.com/v2/dynamic-brcode/f1bfba8aaaef44a39dc16b33b68bcf75.png"
+    },
+    {
+      "_id": {
+        "$oid": "670729c034e8c18da9a89bad"
+      },
+      "user": {
+        "$oid": "66ad4b3c9c9ea7a6a304614d"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c59154f473f074d3498953"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberDouble": "9.99"
+          },
+          "_id": {
+            "$oid": "670729c034e8c18da9a89bae"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberDouble": "9.99"
+      },
+      "status": "cancelled",
+      "paymentStatus": "failed",
+      "paymentMethod": "pix",
+      "paymentProvider": "starkbank",
+      "couponCode": null,
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1728522688385"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1728522689026"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "paymentProviderReferenceId": "5189abc381664fa1a7fab70966cea2a8",
+      "pixKey": "00020101021226790014br.gov.bcb.pix2557brcode.starkinfra.com/v2/5189abc381664fa1a7fab70966cea2a85204000053039865802BR5920Monaco Solucoes Ltda6007Barueri62070503***6304153C",
+      "pixQRCode": "https://api.starkbank.com/v2/dynamic-brcode/5189abc381664fa1a7fab70966cea2a8.png"
+    },
+    {
+      "_id": {
+        "$oid": "670729ebbe6224eacf683ac2"
+      },
+      "user": {
+        "$oid": "66ad4b3c9c9ea7a6a304614d"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c59154f473f074d3498953"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberDouble": "9.99"
+          },
+          "_id": {
+            "$oid": "670729ebbe6224eacf683ac3"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberDouble": "9.99"
+      },
+      "status": "cancelled",
+      "paymentStatus": "failed",
+      "paymentMethod": "pix",
+      "paymentProvider": "starkbank",
+      "couponCode": null,
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1728522731372"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1728522731664"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "paymentProviderReferenceId": "4dfe9a5fa14d41bdae5efa22243554a0",
+      "pixKey": "00020101021226790014br.gov.bcb.pix2557brcode.starkinfra.com/v2/4dfe9a5fa14d41bdae5efa22243554a05204000053039865802BR5920Monaco Solucoes Ltda6007Barueri62070503***63046672",
+      "pixQRCode": "https://api.starkbank.com/v2/dynamic-brcode/4dfe9a5fa14d41bdae5efa22243554a0.png"
+    },
+    {
+      "_id": {
+        "$oid": "670931b9b86fffdcfc3f1fe4"
+      },
+      "user": {
+        "$oid": "66a456dbec35678359738d55"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c59154f473f074d3498953"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberDouble": "9.99"
+          },
+          "_id": {
+            "$oid": "670931b9b86fffdcfc3f1fe5"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberDouble": "9.99"
+      },
+      "status": "completed",
+      "paymentStatus": "paid",
+      "paymentMethod": "pix",
+      "paymentProvider": "starkbank",
+      "couponCode": null,
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1728655801635"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1728655802592"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "paymentProviderReferenceId": "0f280387f81c4ab3a748817730c7519b",
+      "pixKey": "00020101021226790014br.gov.bcb.pix2557brcode.starkinfra.com/v2/0f280387f81c4ab3a748817730c7519b5204000053039865802BR5920Monaco Solucoes Ltda6007Barueri62070503***63046EF6",
+      "pixQRCode": "https://api.starkbank.com/v2/dynamic-brcode/0f280387f81c4ab3a748817730c7519b.png"
+    },
+    {
+      "_id": {
+        "$oid": "670a86d7bc8d5bccf7ff6f2b"
+      },
+      "user": {
+        "$oid": "66ad4b3c9c9ea7a6a304614d"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c59154f473f074d3498953"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberDouble": "9.99"
+          },
+          "_id": {
+            "$oid": "670a86d7bc8d5bccf7ff6f2c"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberDouble": "9.99"
+      },
+      "status": "completed",
+      "paymentStatus": "paid",
+      "paymentMethod": "pix",
+      "paymentProvider": "starkbank",
+      "couponCode": null,
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1728743127573"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1728743128087"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "paymentProviderReferenceId": "7cc2a91fc3e74b8896bd73c2ecc25571",
+      "pixKey": "00020101021226790014br.gov.bcb.pix2557brcode.starkinfra.com/v2/7cc2a91fc3e74b8896bd73c2ecc255715204000053039865802BR5920Monaco Solucoes Ltda6007Barueri62070503***6304AB93",
+      "pixQRCode": "https://api.starkbank.com/v2/dynamic-brcode/7cc2a91fc3e74b8896bd73c2ecc25571.png"
+    },
+    {
+      "_id": {
+        "$oid": "670a999ff223507c75af8b0d"
+      },
+      "user": {
+        "$oid": "66b79bb151d49a025a9015e9"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c59157c73704ea955fc6aa"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberDouble": "17.99"
+          },
+          "_id": {
+            "$oid": "670a999ff223507c75af8b0e"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberDouble": "17.99"
+      },
+      "status": "completed",
+      "paymentStatus": "paid",
+      "paymentMethod": "pix",
+      "paymentProvider": "starkbank",
+      "couponCode": "MONACO50",
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1728747935164"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1728747935503"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "paymentProviderReferenceId": "c523ac9e93814638b16474fced057cb1",
+      "pixKey": "00020101021226790014br.gov.bcb.pix2557brcode.starkinfra.com/v2/c523ac9e93814638b16474fced057cb15204000053039865802BR5920Monaco Solucoes Ltda6007Barueri62070503***630468C7",
+      "pixQRCode": "https://api.starkbank.com/v2/dynamic-brcode/c523ac9e93814638b16474fced057cb1.png"
+    },
+    {
+      "_id": {
+        "$oid": "670af4255df5fee3e5e6a590"
+      },
+      "user": {
+        "$oid": "67095b9253d96a8898def413"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c59157c73704ea955fc6aa"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberDouble": "17.99"
+          },
+          "_id": {
+            "$oid": "670af4255df5fee3e5e6a591"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberDouble": "17.99"
+      },
+      "status": "completed",
+      "paymentStatus": "paid",
+      "paymentMethod": "pix",
+      "paymentProvider": "starkbank",
+      "couponCode": "MONACO50",
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1728771109878"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1728771110227"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "paymentProviderReferenceId": "15fb4c126b3043e487e0bb267adce81b",
+      "pixKey": "00020101021226790014br.gov.bcb.pix2557brcode.starkinfra.com/v2/15fb4c126b3043e487e0bb267adce81b5204000053039865802BR5920Monaco Solucoes Ltda6007Barueri62070503***6304061D",
+      "pixQRCode": "https://api.starkbank.com/v2/dynamic-brcode/15fb4c126b3043e487e0bb267adce81b.png"
+    },
+    {
+      "_id": {
+        "$oid": "670be088446ffaba5faa84a6"
+      },
+      "user": {
+        "$oid": "66cbdf4346f1d3cca0f1a137"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c59157c73704ea955fc6aa"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberDouble": "35.99"
+          },
+          "_id": {
+            "$oid": "670be088446ffaba5faa84a7"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberDouble": "35.99"
+      },
+      "status": "completed",
+      "paymentStatus": "paid",
+      "paymentMethod": "pix",
+      "paymentProvider": "starkbank",
+      "couponCode": null,
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1728831624714"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1728831625108"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "paymentProviderReferenceId": "b3f4d9a310174af8b0d457130f1f802d",
+      "pixKey": "00020101021226790014br.gov.bcb.pix2557brcode.starkinfra.com/v2/b3f4d9a310174af8b0d457130f1f802d5204000053039865802BR5920Monaco Solucoes Ltda6007Barueri62070503***6304314C",
+      "pixQRCode": "https://api.starkbank.com/v2/dynamic-brcode/b3f4d9a310174af8b0d457130f1f802d.png"
+    },
+    {
+      "_id": {
+        "$oid": "670bea947c4993fa5e87cfc6"
+      },
+      "user": {
+        "$oid": "66cbdf4346f1d3cca0f1a137"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c59157c73704ea955fc6aa"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberDouble": "35.99"
+          },
+          "_id": {
+            "$oid": "670bea947c4993fa5e87cfc7"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberDouble": "35.99"
+      },
+      "status": "completed",
+      "paymentStatus": "paid",
+      "paymentMethod": "pix",
+      "paymentProvider": "starkbank",
+      "couponCode": null,
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1728834196404"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1728834196809"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "paymentProviderReferenceId": "370c6d4230774a1b83c4c43a64cce899",
+      "pixKey": "00020101021226790014br.gov.bcb.pix2557brcode.starkinfra.com/v2/370c6d4230774a1b83c4c43a64cce8995204000053039865802BR5920Monaco Solucoes Ltda6007Barueri62070503***6304672B",
+      "pixQRCode": "https://api.starkbank.com/v2/dynamic-brcode/370c6d4230774a1b83c4c43a64cce899.png"
+    },
+    {
+      "_id": {
+        "$oid": "670c2d81c136abe54466d723"
+      },
+      "user": {
+        "$oid": "670c2b2d4aa2eb79a60b3c98"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c59157c73704ea955fc6aa"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberDouble": "17.99"
+          },
+          "_id": {
+            "$oid": "670c2d81c136abe54466d724"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberDouble": "17.99"
+      },
+      "status": "completed",
+      "paymentStatus": "paid",
+      "paymentMethod": "pix",
+      "paymentProvider": "starkbank",
+      "couponCode": "MONACO50",
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1728851329340"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1728851329726"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "paymentProviderReferenceId": "fe070259f08b403caa4f57a41ed78031",
+      "pixKey": "00020101021226790014br.gov.bcb.pix2557brcode.starkinfra.com/v2/fe070259f08b403caa4f57a41ed780315204000053039865802BR5920Monaco Solucoes Ltda6007Barueri62070503***6304FA0B",
+      "pixQRCode": "https://api.starkbank.com/v2/dynamic-brcode/fe070259f08b403caa4f57a41ed78031.png"
+    },
+    {
+      "_id": {
+        "$oid": "670c9af062c5084bc3e6709c"
+      },
+      "user": {
+        "$oid": "67095b9253d96a8898def413"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c59157c73704ea955fc6aa"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberDouble": "35.99"
+          },
+          "_id": {
+            "$oid": "670c9af062c5084bc3e6709d"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberDouble": "35.99"
+      },
+      "status": "completed",
+      "paymentStatus": "paid",
+      "paymentMethod": "pix",
+      "paymentProvider": "starkbank",
+      "couponCode": null,
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1728879344499"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1728879344895"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "paymentProviderReferenceId": "4b04716c9bd645f9ac52ecba5fb6cc01",
+      "pixKey": "00020101021226790014br.gov.bcb.pix2557brcode.starkinfra.com/v2/4b04716c9bd645f9ac52ecba5fb6cc015204000053039865802BR5920Monaco Solucoes Ltda6007Barueri62070503***63043085",
+      "pixQRCode": "https://api.starkbank.com/v2/dynamic-brcode/4b04716c9bd645f9ac52ecba5fb6cc01.png"
+    },
+    {
+      "_id": {
+        "$oid": "670d11277ac7e92e3122a05e"
+      },
+      "user": {
+        "$oid": "66a456dbec35678359738d55"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c59154f473f074d3498953"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberDouble": "9.99"
+          },
+          "_id": {
+            "$oid": "670d11277ac7e92e3122a05f"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberDouble": "9.99"
+      },
+      "status": "completed",
+      "paymentStatus": "paid",
+      "paymentMethod": "pix",
+      "paymentProvider": "starkbank",
+      "couponCode": null,
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1728909607910"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1728909608306"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "paymentProviderReferenceId": "1311825b4d7548e99c7f463946b77596",
+      "pixKey": "00020101021226790014br.gov.bcb.pix2557brcode.starkinfra.com/v2/1311825b4d7548e99c7f463946b775965204000053039865802BR5920Monaco Solucoes Ltda6007Barueri62070503***63045C60",
+      "pixQRCode": "https://api.starkbank.com/v2/dynamic-brcode/1311825b4d7548e99c7f463946b77596.png"
+    },
+    {
+      "_id": {
+        "$oid": "670d1190371450520fc96a36"
+      },
+      "user": {
+        "$oid": "66a456dbec35678359738d55"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c59157c73704ea955fc6aa"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberDouble": "35.99"
+          },
+          "_id": {
+            "$oid": "670d1190371450520fc96a37"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberDouble": "35.99"
+      },
+      "status": "completed",
+      "paymentStatus": "paid",
+      "paymentMethod": "pix",
+      "paymentProvider": "starkbank",
+      "couponCode": null,
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1728909712392"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1728909712795"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "paymentProviderReferenceId": "bf79180e25bd4511968e56bc3d3f4716",
+      "pixKey": "00020101021226790014br.gov.bcb.pix2557brcode.starkinfra.com/v2/bf79180e25bd4511968e56bc3d3f47165204000053039865802BR5920Monaco Solucoes Ltda6007Barueri62070503***63040F79",
+      "pixQRCode": "https://api.starkbank.com/v2/dynamic-brcode/bf79180e25bd4511968e56bc3d3f4716.png"
+    },
+    {
+      "_id": {
+        "$oid": "670d11bf57b1048ce182346a"
+      },
+      "user": {
+        "$oid": "66a456dbec35678359738d55"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c59157c73704ea955fc6aa"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberDouble": "35.99"
+          },
+          "_id": {
+            "$oid": "670d11bf57b1048ce182346b"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberDouble": "35.99"
+      },
+      "status": "completed",
+      "paymentStatus": "paid",
+      "paymentMethod": "pix",
+      "paymentProvider": "starkbank",
+      "couponCode": null,
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1728909759603"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1728909759943"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "paymentProviderReferenceId": "80d5dd1f741c44d5894b2df075759d17",
+      "pixKey": "00020101021226790014br.gov.bcb.pix2557brcode.starkinfra.com/v2/80d5dd1f741c44d5894b2df075759d175204000053039865802BR5920Monaco Solucoes Ltda6007Barueri62070503***63040CB4",
+      "pixQRCode": "https://api.starkbank.com/v2/dynamic-brcode/80d5dd1f741c44d5894b2df075759d17.png"
+    },
+    {
+      "_id": {
+        "$oid": "670d412dfdbf5394c5b30f52"
+      },
+      "user": {
+        "$oid": "670c2b2d4aa2eb79a60b3c98"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c59157c73704ea955fc6aa"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberDouble": "35.99"
+          },
+          "_id": {
+            "$oid": "670d412dfdbf5394c5b30f53"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberDouble": "35.99"
+      },
+      "status": "completed",
+      "paymentStatus": "paid",
+      "paymentMethod": "pix",
+      "paymentProvider": "starkbank",
+      "couponCode": null,
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1728921901235"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1728921901805"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "paymentProviderReferenceId": "b049ebc9f68f48d2a9a3c105d9c027d8",
+      "pixKey": "00020101021226790014br.gov.bcb.pix2557brcode.starkinfra.com/v2/b049ebc9f68f48d2a9a3c105d9c027d85204000053039865802BR5920Monaco Solucoes Ltda6007Barueri62070503***63042699",
+      "pixQRCode": "https://api.starkbank.com/v2/dynamic-brcode/b049ebc9f68f48d2a9a3c105d9c027d8.png"
+    },
+    {
+      "_id": {
+        "$oid": "670d51bb4ae23d9c8c24ebdd"
+      },
+      "user": {
+        "$oid": "66b79bb151d49a025a9015e9"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c59157c73704ea955fc6aa"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberDouble": "35.99"
+          },
+          "_id": {
+            "$oid": "670d51bb4ae23d9c8c24ebde"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberDouble": "35.99"
+      },
+      "status": "completed",
+      "paymentStatus": "paid",
+      "paymentMethod": "pix",
+      "paymentProvider": "starkbank",
+      "couponCode": null,
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1728926139571"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1728926140025"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "paymentProviderReferenceId": "14d4bcfabd024b95979f1e3c3e82599f",
+      "pixKey": "00020101021226790014br.gov.bcb.pix2557brcode.starkinfra.com/v2/14d4bcfabd024b95979f1e3c3e82599f5204000053039865802BR5920Monaco Solucoes Ltda6007Barueri62070503***6304E6EC",
+      "pixQRCode": "https://api.starkbank.com/v2/dynamic-brcode/14d4bcfabd024b95979f1e3c3e82599f.png"
+    },
+    {
+      "_id": {
+        "$oid": "670d6fb9ee5c989893b7aa00"
+      },
+      "user": {
+        "$oid": "67095b9253d96a8898def413"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c59157c73704ea955fc6aa"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberDouble": "35.99"
+          },
+          "_id": {
+            "$oid": "670d6fb9ee5c989893b7aa01"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberDouble": "35.99"
+      },
+      "status": "completed",
+      "paymentStatus": "paid",
+      "paymentMethod": "pix",
+      "paymentProvider": "starkbank",
+      "couponCode": null,
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1728933817315"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1728933817782"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "paymentProviderReferenceId": "1f9c83db050f4665a4f8d90e4ccd460b",
+      "pixKey": "00020101021226790014br.gov.bcb.pix2557brcode.starkinfra.com/v2/1f9c83db050f4665a4f8d90e4ccd460b5204000053039865802BR5920Monaco Solucoes Ltda6007Barueri62070503***6304E453",
+      "pixQRCode": "https://api.starkbank.com/v2/dynamic-brcode/1f9c83db050f4665a4f8d90e4ccd460b.png"
+    },
+    {
+      "_id": {
+        "$oid": "673a334f053e9513078a3619"
+      },
+      "user": {
+        "$oid": "67098f2dc6aacc0067f5ecc4"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c59157c73704ea955fc6aa"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberDouble": "17.99"
+          },
+          "_id": {
+            "$oid": "673a334f053e9513078a361a"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberDouble": "17.99"
+      },
+      "status": "completed",
+      "paymentStatus": "paid",
+      "paymentMethod": "pix",
+      "paymentProvider": "starkbank",
+      "couponCode": "MONACO50",
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1731867471976"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1731867472516"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "paymentProviderReferenceId": "e0055c1c7fde4d16811b187467b2f716",
+      "pixKey": "00020101021226790014br.gov.bcb.pix2557brcode.starkinfra.com/v2/e0055c1c7fde4d16811b187467b2f7165204000053039865802BR5920Monaco Solucoes Ltda6007Barueri62070503***6304851A",
+      "pixQRCode": "https://api.starkbank.com/v2/dynamic-brcode/e0055c1c7fde4d16811b187467b2f716.png"
+    },
+    {
+      "_id": {
+        "$oid": "673bf13c21e510669952a1a2"
+      },
+      "user": {
+        "$oid": "670c2b2d4aa2eb79a60b3c98"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c59157c73704ea955fc6aa"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberDouble": "35.99"
+          },
+          "_id": {
+            "$oid": "673bf13c21e510669952a1a3"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberDouble": "35.99"
+      },
+      "status": "cancelled",
+      "paymentStatus": "failed",
+      "paymentMethod": "pix",
+      "paymentProvider": "starkbank",
+      "couponCode": null,
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1731981628652"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1731981630166"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "paymentProviderReferenceId": "95bf65c4c6524feb9b8d4c2495942ae8",
+      "pixKey": "00020101021226790014br.gov.bcb.pix2557brcode.starkinfra.com/v2/95bf65c4c6524feb9b8d4c2495942ae85204000053039865802BR5920Monaco Solucoes Ltda6007Barueri62070503***630432FD",
+      "pixQRCode": "https://api.starkbank.com/v2/dynamic-brcode/95bf65c4c6524feb9b8d4c2495942ae8.png"
+    },
+    {
+      "_id": {
+        "$oid": "6743b5825303c4882bf59907"
+      },
+      "user": {
+        "$oid": "66b79bb151d49a025a9015e9"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c59157c73704ea955fc6aa"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberDouble": "35.99"
+          },
+          "_id": {
+            "$oid": "6743b5825303c4882bf59908"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberDouble": "35.99"
+      },
+      "status": "completed",
+      "paymentStatus": "paid",
+      "paymentMethod": "pix",
+      "paymentProvider": "starkbank",
+      "couponCode": null,
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1732490626510"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1732490627636"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "paymentProviderReferenceId": "b09c50271aa647c8b3e7fb6e9978cc76",
+      "pixKey": "00020101021226790014br.gov.bcb.pix2557brcode.starkinfra.com/v2/b09c50271aa647c8b3e7fb6e9978cc765204000053039865802BR5920Monaco Solucoes Ltda6007Barueri62070503***630485DF",
+      "pixQRCode": "https://api.starkbank.com/v2/dynamic-brcode/b09c50271aa647c8b3e7fb6e9978cc76.png"
+    },
+    {
+      "_id": {
+        "$oid": "6745c8c7a8d7397284dd445a"
+      },
+      "user": {
+        "$oid": "669e831c506b6f3899864a8e"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c59157c73704ea955fc6aa"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberDouble": "17.99"
+          },
+          "_id": {
+            "$oid": "6745c8c7a8d7397284dd445b"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberDouble": "17.99"
+      },
+      "status": "completed",
+      "paymentStatus": "paid",
+      "paymentMethod": "pix",
+      "paymentProvider": "starkbank",
+      "couponCode": "MONACO50",
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1732626631999"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1732626632763"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "paymentProviderReferenceId": "af0316f09c824300843d5efbce0db630",
+      "pixKey": "00020101021226790014br.gov.bcb.pix2557brcode.starkinfra.com/v2/af0316f09c824300843d5efbce0db6305204000053039865802BR5920Monaco Solucoes Ltda6007Barueri62070503***6304C2CD",
+      "pixQRCode": "https://api.starkbank.com/v2/dynamic-brcode/af0316f09c824300843d5efbce0db630.png"
+    },
+    {
+      "_id": {
+        "$oid": "674634f2a552172a9a5bb547"
+      },
+      "user": {
+        "$oid": "66a456dbec35678359738d55"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c59157c73704ea955fc6aa"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberDouble": "35.99"
+          },
+          "_id": {
+            "$oid": "674634f2a552172a9a5bb548"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberDouble": "35.99"
+      },
+      "status": "completed",
+      "paymentStatus": "paid",
+      "paymentMethod": "pix",
+      "paymentProvider": "starkbank",
+      "couponCode": null,
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1732654322702"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1732654323314"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "paymentProviderReferenceId": "c1d001fd909e4cfea708f8fa4f7d0406",
+      "pixKey": "00020101021226790014br.gov.bcb.pix2557brcode.starkinfra.com/v2/c1d001fd909e4cfea708f8fa4f7d04065204000053039865802BR5920Monaco Solucoes Ltda6007Barueri62070503***6304F3F1",
+      "pixQRCode": "https://api.starkbank.com/v2/dynamic-brcode/c1d001fd909e4cfea708f8fa4f7d0406.png"
+    },
+    {
+      "_id": {
+        "$oid": "674635304260282d18f28f34"
+      },
+      "user": {
+        "$oid": "66a456dbec35678359738d55"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c59154f473f074d3498953"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberDouble": "9.99"
+          },
+          "_id": {
+            "$oid": "674635304260282d18f28f35"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberDouble": "9.99"
+      },
+      "status": "completed",
+      "paymentStatus": "paid",
+      "paymentMethod": "pix",
+      "paymentProvider": "starkbank",
+      "couponCode": null,
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1732654384190"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1732654384906"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "paymentProviderReferenceId": "8031e76a9b1843c2aea8d1449ca36919",
+      "pixKey": "00020101021226790014br.gov.bcb.pix2557brcode.starkinfra.com/v2/8031e76a9b1843c2aea8d1449ca369195204000053039865802BR5920Monaco Solucoes Ltda6007Barueri62070503***6304805F",
+      "pixQRCode": "https://api.starkbank.com/v2/dynamic-brcode/8031e76a9b1843c2aea8d1449ca36919.png"
+    },
+    {
+      "_id": {
+        "$oid": "6746ad1634e65fac2bad0fbc"
+      },
+      "user": {
+        "$oid": "670c2b2d4aa2eb79a60b3c98"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c59157c73704ea955fc6aa"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberDouble": "35.99"
+          },
+          "_id": {
+            "$oid": "6746ad1634e65fac2bad0fbd"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberDouble": "35.99"
+      },
+      "status": "completed",
+      "paymentStatus": "paid",
+      "paymentMethod": "pix",
+      "paymentProvider": "starkbank",
+      "couponCode": null,
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1732685078843"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1732685079243"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "paymentProviderReferenceId": "ec681bb2123c4fe9b93d77ee21b463a8",
+      "pixKey": "00020101021226790014br.gov.bcb.pix2557brcode.starkinfra.com/v2/ec681bb2123c4fe9b93d77ee21b463a85204000053039865802BR5920Monaco Solucoes Ltda6007Barueri62070503***63042D8F",
+      "pixQRCode": "https://api.starkbank.com/v2/dynamic-brcode/ec681bb2123c4fe9b93d77ee21b463a8.png"
+    },
+    {
+      "_id": {
+        "$oid": "6747639ca4640356eefab13d"
+      },
+      "user": {
+        "$oid": "66b79bb151d49a025a9015e9"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c59157c73704ea955fc6aa"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberDouble": "35.99"
+          },
+          "_id": {
+            "$oid": "6747639ca4640356eefab13e"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberDouble": "35.99"
+      },
+      "status": "completed",
+      "paymentStatus": "paid",
+      "paymentMethod": "pix",
+      "paymentProvider": "starkbank",
+      "couponCode": null,
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1732731804432"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1732731804995"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "paymentProviderReferenceId": "cc32e3dd80b04d8d8de712ba17dcc712",
+      "pixKey": "00020101021226790014br.gov.bcb.pix2557brcode.starkinfra.com/v2/cc32e3dd80b04d8d8de712ba17dcc7125204000053039865802BR5920Monaco Solucoes Ltda6007Barueri62070503***6304103A",
+      "pixQRCode": "https://api.starkbank.com/v2/dynamic-brcode/cc32e3dd80b04d8d8de712ba17dcc712.png"
+    },
+    {
+      "_id": {
+        "$oid": "6747eef4aa8535bc578520d7"
+      },
+      "user": {
+        "$oid": "66a456dbec35678359738d55"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c59154f473f074d3498953"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberDouble": "9.99"
+          },
+          "_id": {
+            "$oid": "6747eef4aa8535bc578520d8"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberDouble": "9.99"
+      },
+      "status": "completed",
+      "paymentStatus": "paid",
+      "paymentMethod": "pix",
+      "paymentProvider": "starkbank",
+      "couponCode": null,
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1732767476435"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1732767476792"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "paymentProviderReferenceId": "8563389a802b442db9fe16671fd2ee86",
+      "pixKey": "00020101021226790014br.gov.bcb.pix2557brcode.starkinfra.com/v2/8563389a802b442db9fe16671fd2ee865204000053039865802BR5920Monaco Solucoes Ltda6007Barueri62070503***63041111",
+      "pixQRCode": "https://api.starkbank.com/v2/dynamic-brcode/8563389a802b442db9fe16671fd2ee86.png"
+    },
+    {
+      "_id": {
+        "$oid": "674930672531e173d8b0d399"
+      },
+      "user": {
+        "$oid": "66a456dbec35678359738d55"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c59157c73704ea955fc6aa"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberDouble": "35.99"
+          },
+          "_id": {
+            "$oid": "674930672531e173d8b0d39a"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberDouble": "35.99"
+      },
+      "status": "completed",
+      "paymentStatus": "paid",
+      "paymentMethod": "pix",
+      "paymentProvider": "starkbank",
+      "couponCode": null,
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1732849767578"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1732849768538"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "paymentProviderReferenceId": "fdc543316cfb462ea7861b836775946f",
+      "pixKey": "00020101021226790014br.gov.bcb.pix2557brcode.starkinfra.com/v2/fdc543316cfb462ea7861b836775946f5204000053039865802BR5920Monaco Solucoes Ltda6007Barueri62070503***6304D827",
+      "pixQRCode": "https://api.starkbank.com/v2/dynamic-brcode/fdc543316cfb462ea7861b836775946f.png"
+    },
+    {
+      "_id": {
+        "$oid": "6749494302e91d87a411b8c2"
+      },
+      "user": {
+        "$oid": "66a456dbec35678359738d55"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c59154f473f074d3498953"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberDouble": "9.99"
+          },
+          "_id": {
+            "$oid": "6749494302e91d87a411b8c3"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberDouble": "9.99"
+      },
+      "status": "completed",
+      "paymentStatus": "paid",
+      "paymentMethod": "pix",
+      "paymentProvider": "starkbank",
+      "couponCode": null,
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1732856131738"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1732856132506"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "paymentProviderReferenceId": "121fb17c3f3b4e7bbd5416250dc08c06",
+      "pixKey": "00020101021226790014br.gov.bcb.pix2557brcode.starkinfra.com/v2/121fb17c3f3b4e7bbd5416250dc08c065204000053039865802BR5920Monaco Solucoes Ltda6007Barueri62070503***63049713",
+      "pixQRCode": "https://api.starkbank.com/v2/dynamic-brcode/121fb17c3f3b4e7bbd5416250dc08c06.png"
+    },
+    {
+      "_id": {
+        "$oid": "674977203ab82db45e6b25cc"
+      },
+      "user": {
+        "$oid": "670c2b2d4aa2eb79a60b3c98"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c59157c73704ea955fc6aa"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberDouble": "35.99"
+          },
+          "_id": {
+            "$oid": "674977203ab82db45e6b25cd"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberDouble": "35.99"
+      },
+      "status": "completed",
+      "paymentStatus": "paid",
+      "paymentMethod": "pix",
+      "paymentProvider": "starkbank",
+      "couponCode": null,
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1732867872204"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1732867872739"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "paymentProviderReferenceId": "7167c8b679c74f26942361c822f035db",
+      "pixKey": "00020101021226790014br.gov.bcb.pix2557brcode.starkinfra.com/v2/7167c8b679c74f26942361c822f035db5204000053039865802BR5920Monaco Solucoes Ltda6007Barueri62070503***63040F90",
+      "pixQRCode": "https://api.starkbank.com/v2/dynamic-brcode/7167c8b679c74f26942361c822f035db.png"
+    },
+    {
+      "_id": {
+        "$oid": "6749c9ccd1dfff51cc54b510"
+      },
+      "user": {
+        "$oid": "66b79bb151d49a025a9015e9"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c59157c73704ea955fc6aa"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberDouble": "35.99"
+          },
+          "_id": {
+            "$oid": "6749c9ccd1dfff51cc54b511"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberDouble": "35.99"
+      },
+      "status": "completed",
+      "paymentStatus": "paid",
+      "paymentMethod": "pix",
+      "paymentProvider": "starkbank",
+      "couponCode": null,
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1732889036180"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1732889036613"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "paymentProviderReferenceId": "7e0483c3779049a095a131a64787010d",
+      "pixKey": "00020101021226790014br.gov.bcb.pix2557brcode.starkinfra.com/v2/7e0483c3779049a095a131a64787010d5204000053039865802BR5920Monaco Solucoes Ltda6007Barueri62070503***63041CA7",
+      "pixQRCode": "https://api.starkbank.com/v2/dynamic-brcode/7e0483c3779049a095a131a64787010d.png"
+    },
+    {
+      "_id": {
+        "$oid": "6749eea633ca6baa6139752a"
+      },
+      "user": {
+        "$oid": "669e831c506b6f3899864a8e"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c59157c73704ea955fc6aa"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberDouble": "35.99"
+          },
+          "_id": {
+            "$oid": "6749eea633ca6baa6139752b"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberDouble": "35.99"
+      },
+      "status": "completed",
+      "paymentStatus": "paid",
+      "paymentMethod": "pix",
+      "paymentProvider": "starkbank",
+      "couponCode": null,
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1732898470503"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1732898470877"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "paymentProviderReferenceId": "f887188d181d438ca4765aba137526d5",
+      "pixKey": "00020101021226790014br.gov.bcb.pix2557brcode.starkinfra.com/v2/f887188d181d438ca4765aba137526d55204000053039865802BR5920Monaco Solucoes Ltda6007Barueri62070503***6304226F",
+      "pixQRCode": "https://api.starkbank.com/v2/dynamic-brcode/f887188d181d438ca4765aba137526d5.png"
+    },
+    {
+      "_id": {
+        "$oid": "6749f306c20c811e7abc48ae"
+      },
+      "user": {
+        "$oid": "66a456dbec35678359738d55"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c59154f473f074d3498953"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberDouble": "9.99"
+          },
+          "_id": {
+            "$oid": "6749f306c20c811e7abc48af"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberDouble": "9.99"
+      },
+      "status": "completed",
+      "paymentStatus": "paid",
+      "paymentMethod": "pix",
+      "paymentProvider": "starkbank",
+      "couponCode": null,
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1732899590225"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1732899590595"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "paymentProviderReferenceId": "fcd2877f3fdd467ca42ab5f718a4ccbe",
+      "pixKey": "00020101021226790014br.gov.bcb.pix2557brcode.starkinfra.com/v2/fcd2877f3fdd467ca42ab5f718a4ccbe5204000053039865802BR5920Monaco Solucoes Ltda6007Barueri62070503***63044395",
+      "pixQRCode": "https://api.starkbank.com/v2/dynamic-brcode/fcd2877f3fdd467ca42ab5f718a4ccbe.png"
+    },
+    {
+      "_id": {
+        "$oid": "674a2591cfacb447e1b701f6"
+      },
+      "user": {
+        "$oid": "670c2b2d4aa2eb79a60b3c98"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c59157c73704ea955fc6aa"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberDouble": "35.99"
+          },
+          "_id": {
+            "$oid": "674a2591cfacb447e1b701f7"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberDouble": "35.99"
+      },
+      "status": "completed",
+      "paymentStatus": "paid",
+      "paymentMethod": "pix",
+      "paymentProvider": "starkbank",
+      "couponCode": null,
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1732912529092"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1732912529636"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "paymentProviderReferenceId": "c531b7737b6440458860563fd6ed41e6",
+      "pixKey": "00020101021226790014br.gov.bcb.pix2557brcode.starkinfra.com/v2/c531b7737b6440458860563fd6ed41e65204000053039865802BR5920Monaco Solucoes Ltda6007Barueri62070503***63043FDE",
+      "pixQRCode": "https://api.starkbank.com/v2/dynamic-brcode/c531b7737b6440458860563fd6ed41e6.png"
+    },
+    {
+      "_id": {
+        "$oid": "674a27db3ec25e9261a93c1c"
+      },
+      "user": {
+        "$oid": "66a456dbec35678359738d55"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c59154f473f074d3498953"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberDouble": "9.99"
+          },
+          "_id": {
+            "$oid": "674a27db3ec25e9261a93c1d"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberDouble": "9.99"
+      },
+      "status": "completed",
+      "paymentStatus": "paid",
+      "paymentMethod": "pix",
+      "paymentProvider": "starkbank",
+      "couponCode": null,
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1732913115892"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1732913116232"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "paymentProviderReferenceId": "f76366e071154d95a34038153946e390",
+      "pixKey": "00020101021226790014br.gov.bcb.pix2557brcode.starkinfra.com/v2/f76366e071154d95a34038153946e3905204000053039865802BR5920Monaco Solucoes Ltda6007Barueri62070503***63043D89",
+      "pixQRCode": "https://api.starkbank.com/v2/dynamic-brcode/f76366e071154d95a34038153946e390.png"
+    },
+    {
+      "_id": {
+        "$oid": "674a2a97f0eebf119dfd1f30"
+      },
+      "user": {
+        "$oid": "66a456dbec35678359738d55"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c59154f473f074d3498953"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberDouble": "9.99"
+          },
+          "_id": {
+            "$oid": "674a2a97f0eebf119dfd1f31"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberDouble": "9.99"
+      },
+      "status": "completed",
+      "paymentStatus": "paid",
+      "paymentMethod": "pix",
+      "paymentProvider": "starkbank",
+      "couponCode": null,
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1732913815648"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1732913816190"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "paymentProviderReferenceId": "44755e825abf4c6880badc7a7a8cc108",
+      "pixKey": "00020101021226790014br.gov.bcb.pix2557brcode.starkinfra.com/v2/44755e825abf4c6880badc7a7a8cc1085204000053039865802BR5920Monaco Solucoes Ltda6007Barueri62070503***6304C34F",
+      "pixQRCode": "https://api.starkbank.com/v2/dynamic-brcode/44755e825abf4c6880badc7a7a8cc108.png"
+    },
+    {
+      "_id": {
+        "$oid": "6760d4a850ad476b615e12cd"
+      },
+      "user": {
+        "$oid": "66a456dbec35678359738d55"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c59157c73704ea955fc6aa"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberDouble": "35.99"
+          },
+          "_id": {
+            "$oid": "6760d4a850ad476b615e12ce"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberDouble": "35.99"
+      },
+      "status": "cancelled",
+      "paymentStatus": "failed",
+      "paymentMethod": "pix",
+      "paymentProvider": "starkbank",
+      "couponCode": null,
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1734399144092"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1734399144697"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "paymentProviderReferenceId": "f1cf3997105b4d358e75ab5fe3b765d0",
+      "pixKey": "00020101021226790014br.gov.bcb.pix2557brcode.starkinfra.com/v2/f1cf3997105b4d358e75ab5fe3b765d05204000053039865802BR5920Monaco Solucoes Ltda6007Barueri62070503***6304CB4A",
+      "pixQRCode": "https://api.starkbank.com/v2/dynamic-brcode/f1cf3997105b4d358e75ab5fe3b765d0.png"
+    },
+    {
+      "_id": {
+        "$oid": "6760d4cdbaed7d56ae42f791"
+      },
+      "user": {
+        "$oid": "66a456dbec35678359738d55"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c59157c73704ea955fc6aa"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberDouble": "35.99"
+          },
+          "_id": {
+            "$oid": "6760d4cdbaed7d56ae42f792"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberDouble": "35.99"
+      },
+      "status": "completed",
+      "paymentStatus": "paid",
+      "paymentMethod": "pix",
+      "paymentProvider": "starkbank",
+      "couponCode": null,
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1734399181889"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1734399182447"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "paymentProviderReferenceId": "b589646bd7c2444c9b5856f1a092bbfb",
+      "pixKey": "00020101021226790014br.gov.bcb.pix2557brcode.starkinfra.com/v2/b589646bd7c2444c9b5856f1a092bbfb5204000053039865802BR5920Monaco Solucoes Ltda6007Barueri62070503***6304C40F",
+      "pixQRCode": "https://api.starkbank.com/v2/dynamic-brcode/b589646bd7c2444c9b5856f1a092bbfb.png"
+    },
+    {
+      "_id": {
+        "$oid": "6760e026d693c48312d0c319"
+      },
+      "user": {
+        "$oid": "670c2b2d4aa2eb79a60b3c98"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c59157c73704ea955fc6aa"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberDouble": "35.99"
+          },
+          "_id": {
+            "$oid": "6760e026d693c48312d0c31a"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberDouble": "35.99"
+      },
+      "status": "cancelled",
+      "paymentStatus": "failed",
+      "paymentMethod": "pix",
+      "paymentProvider": "starkbank",
+      "couponCode": null,
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1734402086893"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1734402087212"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "paymentProviderReferenceId": "a3dddf31ddd14ef7af5868cf211b1f5d",
+      "pixKey": "00020101021226790014br.gov.bcb.pix2557brcode.starkinfra.com/v2/a3dddf31ddd14ef7af5868cf211b1f5d5204000053039865802BR5920Monaco Solucoes Ltda6007Barueri62070503***63045043",
+      "pixQRCode": "https://api.starkbank.com/v2/dynamic-brcode/a3dddf31ddd14ef7af5868cf211b1f5d.png"
+    },
+    {
+      "_id": {
+        "$oid": "6760fb6c6620612cf051d79d"
+      },
+      "user": {
+        "$oid": "670c2b2d4aa2eb79a60b3c98"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c59157c73704ea955fc6aa"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberDouble": "35.99"
+          },
+          "_id": {
+            "$oid": "6760fb6c6620612cf051d79e"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberDouble": "35.99"
+      },
+      "status": "completed",
+      "paymentStatus": "paid",
+      "paymentMethod": "pix",
+      "paymentProvider": "starkbank",
+      "couponCode": null,
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1734409068687"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1734409069347"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "paymentProviderReferenceId": "d7ad40a4c7c94154bcb9a188fa8c53da",
+      "pixKey": "00020101021226790014br.gov.bcb.pix2557brcode.starkinfra.com/v2/d7ad40a4c7c94154bcb9a188fa8c53da5204000053039865802BR5920Monaco Solucoes Ltda6007Barueri62070503***630429E5",
+      "pixQRCode": "https://api.starkbank.com/v2/dynamic-brcode/d7ad40a4c7c94154bcb9a188fa8c53da.png"
+    },
+    {
+      "_id": {
+        "$oid": "67616e18c9042e33ab6850d0"
+      },
+      "user": {
+        "$oid": "670c2b2d4aa2eb79a60b3c98"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c59157c73704ea955fc6aa"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberDouble": "35.99"
+          },
+          "_id": {
+            "$oid": "67616e18c9042e33ab6850d1"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberDouble": "35.99"
+      },
+      "status": "completed",
+      "paymentStatus": "paid",
+      "paymentMethod": "pix",
+      "paymentProvider": "starkbank",
+      "couponCode": null,
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1734438424318"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1734438424749"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "paymentProviderReferenceId": "46719c8ccceb460fa27a4af20efdb08e",
+      "pixKey": "00020101021226790014br.gov.bcb.pix2557brcode.starkinfra.com/v2/46719c8ccceb460fa27a4af20efdb08e5204000053039865802BR5920Monaco Solucoes Ltda6007Barueri62070503***6304A3E5",
+      "pixQRCode": "https://api.starkbank.com/v2/dynamic-brcode/46719c8ccceb460fa27a4af20efdb08e.png"
+    },
+    {
+      "_id": {
+        "$oid": "67618eb83aa6a2de84c6d07f"
+      },
+      "user": {
+        "$oid": "66a456dbec35678359738d55"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c59157c73704ea955fc6aa"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberDouble": "35.99"
+          },
+          "_id": {
+            "$oid": "67618eb83aa6a2de84c6d080"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberDouble": "35.99"
+      },
+      "status": "completed",
+      "paymentStatus": "paid",
+      "paymentMethod": "pix",
+      "paymentProvider": "starkbank",
+      "couponCode": null,
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1734446776011"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1734446776719"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "paymentProviderReferenceId": "7cbe6c2d7e9c48bc8486348c2b64baa6",
+      "pixKey": "00020101021226790014br.gov.bcb.pix2557brcode.starkinfra.com/v2/7cbe6c2d7e9c48bc8486348c2b64baa65204000053039865802BR5920Monaco Solucoes Ltda6007Barueri62070503***630451D6",
+      "pixQRCode": "https://api.starkbank.com/v2/dynamic-brcode/7cbe6c2d7e9c48bc8486348c2b64baa6.png"
+    },
+    {
+      "_id": {
+        "$oid": "6765ddf78389fcbd2553c4e7"
+      },
+      "user": {
+        "$oid": "667757512ed9c33fef985652"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c59154f473f074d3498953"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberDouble": "6.99"
+          },
+          "_id": {
+            "$oid": "6765ddf78389fcbd2553c4e8"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberDouble": "6.99"
+      },
+      "status": "completed",
+      "paymentStatus": "paid",
+      "paymentMethod": "pix",
+      "paymentProvider": "starkbank",
+      "couponCode": "PAPAINOEL30",
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1734729207224"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1734729207865"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "paymentProviderReferenceId": "2e21f1df451f45d481c54fe28e259bbd",
+      "pixKey": "00020101021226790014br.gov.bcb.pix2557brcode.starkinfra.com/v2/2e21f1df451f45d481c54fe28e259bbd5204000053039865802BR5920Monaco Solucoes Ltda6007Barueri62070503***6304CDD9",
+      "pixQRCode": "https://api.starkbank.com/v2/dynamic-brcode/2e21f1df451f45d481c54fe28e259bbd.png"
+    },
+    {
+      "_id": {
+        "$oid": "6765dfd1d4cfaac479c1093b"
+      },
+      "user": {
+        "$oid": "66774e35500a9c884a85d3a9"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c59154f473f074d3498953"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberDouble": "6.99"
+          },
+          "_id": {
+            "$oid": "6765dfd1d4cfaac479c1093c"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberDouble": "6.99"
+      },
+      "status": "completed",
+      "paymentStatus": "paid",
+      "paymentMethod": "pix",
+      "paymentProvider": "starkbank",
+      "couponCode": "PAPAINOEL30",
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1734729681380"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1734729681790"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "paymentProviderReferenceId": "9cf8f275ab2b4e28a01dc4ec34dcbadc",
+      "pixKey": "00020101021226790014br.gov.bcb.pix2557brcode.starkinfra.com/v2/9cf8f275ab2b4e28a01dc4ec34dcbadc5204000053039865802BR5920Monaco Solucoes Ltda6007Barueri62070503***63047C04",
+      "pixQRCode": "https://api.starkbank.com/v2/dynamic-brcode/9cf8f275ab2b4e28a01dc4ec34dcbadc.png"
+    },
+    {
+      "_id": {
+        "$oid": "6765e19069e49bff28816234"
+      },
+      "user": {
+        "$oid": "6679d9ea881f6e8f854ca7d7"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c59157c73704ea955fc6aa"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberDouble": "25.19"
+          },
+          "_id": {
+            "$oid": "6765e19069e49bff28816235"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberDouble": "25.19"
+      },
+      "status": "cancelled",
+      "paymentStatus": "failed",
+      "paymentMethod": "pix",
+      "paymentProvider": "starkbank",
+      "couponCode": "PAPAINOEL30",
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1734730128325"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1734730128777"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "paymentProviderReferenceId": "d796ca06244543d085643acb5aad4cb1",
+      "pixKey": "00020101021226790014br.gov.bcb.pix2557brcode.starkinfra.com/v2/d796ca06244543d085643acb5aad4cb15204000053039865802BR5920Monaco Solucoes Ltda6007Barueri62070503***6304ACA7",
+      "pixQRCode": "https://api.starkbank.com/v2/dynamic-brcode/d796ca06244543d085643acb5aad4cb1.png"
+    },
+    {
+      "_id": {
+        "$oid": "6765f7b5b04d0b55f7aa5fce"
+      },
+      "user": {
+        "$oid": "670c2b2d4aa2eb79a60b3c98"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c59157c73704ea955fc6aa"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberDouble": "25.19"
+          },
+          "_id": {
+            "$oid": "6765f7b5b04d0b55f7aa5fcf"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberDouble": "25.19"
+      },
+      "status": "completed",
+      "paymentStatus": "paid",
+      "paymentMethod": "pix",
+      "paymentProvider": "starkbank",
+      "couponCode": "PAPAINOEL30",
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1734735797190"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1734735797493"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "paymentProviderReferenceId": "671ca69f29194a4e9b52d9b5b9cb6d50",
+      "pixKey": "00020101021226790014br.gov.bcb.pix2557brcode.starkinfra.com/v2/671ca69f29194a4e9b52d9b5b9cb6d505204000053039865802BR5920Monaco Solucoes Ltda6007Barueri62070503***6304060A",
+      "pixQRCode": "https://api.starkbank.com/v2/dynamic-brcode/671ca69f29194a4e9b52d9b5b9cb6d50.png"
+    },
+    {
+      "_id": {
+        "$oid": "6766c61de7469194ead7d1c6"
+      },
+      "user": {
+        "$oid": "66b79bb151d49a025a9015e9"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c59157c73704ea955fc6aa"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberDouble": "25.19"
+          },
+          "_id": {
+            "$oid": "6766c61de7469194ead7d1c7"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberDouble": "25.19"
+      },
+      "status": "completed",
+      "paymentStatus": "paid",
+      "paymentMethod": "pix",
+      "paymentProvider": "starkbank",
+      "couponCode": "PAPAINOEL30",
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1734788637193"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1734788637579"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "paymentProviderReferenceId": "ac3e35076eeb4e5b9270a4116039fb22",
+      "pixKey": "00020101021226790014br.gov.bcb.pix2557brcode.starkinfra.com/v2/ac3e35076eeb4e5b9270a4116039fb225204000053039865802BR5920Monaco Solucoes Ltda6007Barueri62070503***63042A77",
+      "pixQRCode": "https://api.starkbank.com/v2/dynamic-brcode/ac3e35076eeb4e5b9270a4116039fb22.png"
+    },
+    {
+      "_id": {
+        "$oid": "6766f60c1c90a921f32ec2e8"
+      },
+      "user": {
+        "$oid": "670c4c0233e7badd759b419a"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c59157c73704ea955fc6aa"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberDouble": "25.19"
+          },
+          "_id": {
+            "$oid": "6766f60c1c90a921f32ec2e9"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberDouble": "25.19"
+      },
+      "status": "completed",
+      "paymentStatus": "paid",
+      "paymentMethod": "pix",
+      "paymentProvider": "starkbank",
+      "couponCode": "PAPAINOEL30",
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1734800908678"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1734800908962"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "paymentProviderReferenceId": "7847bb36c98646879cb05a97432e30e9",
+      "pixKey": "00020101021226790014br.gov.bcb.pix2557brcode.starkinfra.com/v2/7847bb36c98646879cb05a97432e30e95204000053039865802BR5920Monaco Solucoes Ltda6007Barueri62070503***63047915",
+      "pixQRCode": "https://api.starkbank.com/v2/dynamic-brcode/7847bb36c98646879cb05a97432e30e9.png"
+    },
+    {
+      "_id": {
+        "$oid": "6767155cb1a4d7014c733d6e"
+      },
+      "user": {
+        "$oid": "66a456dbec35678359738d55"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c59157c73704ea955fc6aa"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberDouble": "25.19"
+          },
+          "_id": {
+            "$oid": "6767155cb1a4d7014c733d6f"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberDouble": "25.19"
+      },
+      "status": "completed",
+      "paymentStatus": "paid",
+      "paymentMethod": "pix",
+      "paymentProvider": "starkbank",
+      "couponCode": "PAPAINOEL30",
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1734808924052"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1734808924727"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "paymentProviderReferenceId": "6280e9c7667140e48f1e283d90a61715",
+      "pixKey": "00020101021226790014br.gov.bcb.pix2557brcode.starkinfra.com/v2/6280e9c7667140e48f1e283d90a617155204000053039865802BR5920Monaco Solucoes Ltda6007Barueri62070503***630423E4",
+      "pixQRCode": "https://api.starkbank.com/v2/dynamic-brcode/6280e9c7667140e48f1e283d90a61715.png"
+    },
+    {
+      "_id": {
+        "$oid": "67686a93d973c495c297ad41"
+      },
+      "user": {
+        "$oid": "66b79bb151d49a025a9015e9"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c59157c73704ea955fc6aa"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberDouble": "35.99"
+          },
+          "_id": {
+            "$oid": "67686a93d973c495c297ad42"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberDouble": "35.99"
+      },
+      "status": "completed",
+      "paymentStatus": "paid",
+      "paymentMethod": "pix",
+      "paymentProvider": "starkbank",
+      "couponCode": null,
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1734896275578"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1734896275936"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "paymentProviderReferenceId": "8a4be8bbff7f49dea7769bf8dc0540e2",
+      "pixKey": "00020101021226790014br.gov.bcb.pix2557brcode.starkinfra.com/v2/8a4be8bbff7f49dea7769bf8dc0540e25204000053039865802BR5920Monaco Solucoes Ltda6007Barueri62070503***63049C1F",
+      "pixQRCode": "https://api.starkbank.com/v2/dynamic-brcode/8a4be8bbff7f49dea7769bf8dc0540e2.png"
+    },
+    {
+      "_id": {
+        "$oid": "676945b14a30e5b705341ee8"
+      },
+      "user": {
+        "$oid": "670c2b2d4aa2eb79a60b3c98"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c59157c73704ea955fc6aa"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberDouble": "35.99"
+          },
+          "_id": {
+            "$oid": "676945b14a30e5b705341ee9"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberDouble": "35.99"
+      },
+      "status": "completed",
+      "paymentStatus": "paid",
+      "paymentMethod": "pix",
+      "paymentProvider": "starkbank",
+      "couponCode": null,
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1734952369534"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1734952371557"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "paymentProviderReferenceId": "9e5d8b3c643649dfb2c5fbebf0b06354",
+      "pixKey": "00020101021226790014br.gov.bcb.pix2557brcode.starkinfra.com/v2/9e5d8b3c643649dfb2c5fbebf0b063545204000053039865802BR5920Monaco Solucoes Ltda6007Barueri62070503***6304A278",
+      "pixQRCode": "https://api.starkbank.com/v2/dynamic-brcode/9e5d8b3c643649dfb2c5fbebf0b06354.png"
+    },
+    {
+      "_id": {
+        "$oid": "67695cd21af2ae094b535eb8"
+      },
+      "user": {
+        "$oid": "66b79bb151d49a025a9015e9"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c59157c73704ea955fc6aa"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberDouble": "35.99"
+          },
+          "_id": {
+            "$oid": "67695cd21af2ae094b535eb9"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberDouble": "35.99"
+      },
+      "status": "completed",
+      "paymentStatus": "paid",
+      "paymentMethod": "pix",
+      "paymentProvider": "starkbank",
+      "couponCode": null,
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1734958290537"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1734958290957"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "paymentProviderReferenceId": "146fd2a5ac53427f8121b6fc14fd03be",
+      "pixKey": "00020101021226790014br.gov.bcb.pix2557brcode.starkinfra.com/v2/146fd2a5ac53427f8121b6fc14fd03be5204000053039865802BR5920Monaco Solucoes Ltda6007Barueri62070503***6304E9FF",
+      "pixQRCode": "https://api.starkbank.com/v2/dynamic-brcode/146fd2a5ac53427f8121b6fc14fd03be.png"
+    },
+    {
+      "_id": {
+        "$oid": "676982225b29e967bb40612e"
+      },
+      "user": {
+        "$oid": "66a456dbec35678359738d55"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c59157c73704ea955fc6aa"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberDouble": "35.99"
+          },
+          "_id": {
+            "$oid": "676982225b29e967bb40612f"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberDouble": "35.99"
+      },
+      "status": "completed",
+      "paymentStatus": "paid",
+      "paymentMethod": "pix",
+      "paymentProvider": "starkbank",
+      "couponCode": null,
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1734967842136"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1734967844751"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "paymentProviderReferenceId": "1dcb0b4907b948108bf636f94dc48425",
+      "pixKey": "00020101021226790014br.gov.bcb.pix2557brcode.starkinfra.com/v2/1dcb0b4907b948108bf636f94dc484255204000053039865802BR5920Monaco Solucoes Ltda6007Barueri62070503***63049976",
+      "pixQRCode": "https://api.starkbank.com/v2/dynamic-brcode/1dcb0b4907b948108bf636f94dc48425.png"
+    },
+    {
+      "_id": {
+        "$oid": "6769858cc3cd35d5506c7f6b"
+      },
+      "user": {
+        "$oid": "670c4c0233e7badd759b419a"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c59157c73704ea955fc6aa"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberDouble": "35.99"
+          },
+          "_id": {
+            "$oid": "6769858cc3cd35d5506c7f6c"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberDouble": "35.99"
+      },
+      "status": "cancelled",
+      "paymentStatus": "failed",
+      "paymentMethod": "pix",
+      "paymentProvider": "starkbank",
+      "couponCode": null,
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1734968716736"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1734968717135"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "paymentProviderReferenceId": "c776fd9e1d9a4c5b821c2c293656b33d",
+      "pixKey": "00020101021226790014br.gov.bcb.pix2557brcode.starkinfra.com/v2/c776fd9e1d9a4c5b821c2c293656b33d5204000053039865802BR5920Monaco Solucoes Ltda6007Barueri62070503***63042BCF",
+      "pixQRCode": "https://api.starkbank.com/v2/dynamic-brcode/c776fd9e1d9a4c5b821c2c293656b33d.png"
+    },
+    {
+      "_id": {
+        "$oid": "6769bd43cd9436a5d9f3bda2"
+      },
+      "user": {
+        "$oid": "66b79bb151d49a025a9015e9"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c59157c73704ea955fc6aa"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberDouble": "35.99"
+          },
+          "_id": {
+            "$oid": "6769bd43cd9436a5d9f3bda3"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberDouble": "35.99"
+      },
+      "status": "completed",
+      "paymentStatus": "paid",
+      "paymentMethod": "pix",
+      "paymentProvider": "starkbank",
+      "couponCode": null,
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1734982979292"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1734982980126"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "paymentProviderReferenceId": "8e4c6ea81fe44b998c05ae4e2a2fc2fb",
+      "pixKey": "00020101021226790014br.gov.bcb.pix2557brcode.starkinfra.com/v2/8e4c6ea81fe44b998c05ae4e2a2fc2fb5204000053039865802BR5920Monaco Solucoes Ltda6007Barueri62070503***63047826",
+      "pixQRCode": "https://api.starkbank.com/v2/dynamic-brcode/8e4c6ea81fe44b998c05ae4e2a2fc2fb.png"
+    },
+    {
+      "_id": {
+        "$oid": "6769c16e914a4dddf886320c"
+      },
+      "user": {
+        "$oid": "670c2b2d4aa2eb79a60b3c98"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c59157c73704ea955fc6aa"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberDouble": "35.99"
+          },
+          "_id": {
+            "$oid": "6769c16e914a4dddf886320d"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberDouble": "35.99"
+      },
+      "status": "completed",
+      "paymentStatus": "paid",
+      "paymentMethod": "pix",
+      "paymentProvider": "starkbank",
+      "couponCode": null,
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1734984046762"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1734984047298"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "paymentProviderReferenceId": "21129d08b3e14cd99cc8817cb7b7cf7f",
+      "pixKey": "00020101021226790014br.gov.bcb.pix2557brcode.starkinfra.com/v2/21129d08b3e14cd99cc8817cb7b7cf7f5204000053039865802BR5920Monaco Solucoes Ltda6007Barueri62070503***6304FE32",
+      "pixQRCode": "https://api.starkbank.com/v2/dynamic-brcode/21129d08b3e14cd99cc8817cb7b7cf7f.png"
+    },
+    {
+      "_id": {
+        "$oid": "6769c6b72b27596d89cb1efd"
+      },
+      "user": {
+        "$oid": "66a456dbec35678359738d55"
+      },
+      "items": [
+        {
+          "product": {
+            "$oid": "66c5915436165ba67af36bc9"
+          },
+          "quantity": {
+            "$numberInt": "1"
+          },
+          "price": {
+            "$numberDouble": "18.99"
+          },
+          "_id": {
+            "$oid": "6769c6b72b27596d89cb1efe"
+          }
+        }
+      ],
+      "totalAmount": {
+        "$numberDouble": "18.99"
+      },
+      "status": "completed",
+      "paymentStatus": "paid",
+      "paymentMethod": "pix",
+      "paymentProvider": "starkbank",
+      "couponCode": null,
+      "createdAt": {
+        "$date": {
+          "$numberLong": "1734985399022"
+        }
+      },
+      "updatedAt": {
+        "$date": {
+          "$numberLong": "1734985399307"
+        }
+      },
+      "__v": {
+        "$numberInt": "0"
+      },
+      "paymentProviderReferenceId": "4c083a43281b474483411ac9cae0f00f",
+      "pixKey": "00020101021226790014br.gov.bcb.pix2557brcode.starkinfra.com/v2/4c083a43281b474483411ac9cae0f00f5204000053039865802BR5920Monaco Solucoes Ltda6007Barueri62070503***63046411",
+      "pixQRCode": "https://api.starkbank.com/v2/dynamic-brcode/4c083a43281b474483411ac9cae0f00f.png"
+    }
+  ]
