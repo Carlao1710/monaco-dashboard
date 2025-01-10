@@ -1,4 +1,5 @@
 import streamlit as st
+import json
 from src.analysis import (
     analyze_growth,
     calculate_orders_by_event,
@@ -11,6 +12,8 @@ from src.analysis import (
     calculate_tickets_by_game_and_month,
     calculate_tickets_by_level,
     calculate_event_summary_with_outside_events,
+    process_competition_data,
+    create_engagement_graph,
 )
 from src.data_loader import load_json_data
 
@@ -51,65 +54,100 @@ else:
     except Exception as e:
         st.error(f"Erro inesperado na análise: {e}")
 
-    # Gráfico de distribuição de tickets por jogos
-    st.header("Distribuição de Tickets por Jogos")
-    try:
-        game_ticket_distribution = calculate_game_distribution(tickets)
-        st.bar_chart(game_ticket_distribution)
-    except Exception as e:
-        st.error(f"Erro ao calcular distribuição de tickets: {e}")
+# Carregar JSON de competições
+try:
+    with open("data/competitions_gameroom.json") as f:
+        competitions_data = json.load(f)["competitions"]
+except FileNotFoundError:
+    st.error("Arquivo 'competitions_gameroom.json' não encontrado no diretório 'data/'.")
+    st.stop()
+except KeyError:
+    st.error("A chave 'competitions' está ausente no JSON.")
+    st.stop()
 
-    # Gráfico de Tickets x Jogos x Meses
-    st.header("Distribuição de Tickets por Jogos e Meses")
-    try:
-        tickets_by_game_and_month = calculate_tickets_by_game_and_month(tickets)
-        st.line_chart(tickets_by_game_and_month)
-    except Exception as e:
-        st.error(f"Erro ao calcular tickets por jogos e meses: {e}")
+# Título do Dashboard
+st.title("Análises de Engajamento - GameRoom Competitions")
 
-    # Resumo de Tickets e Partidas por Evento
-    st.header("Resumo de Tickets e Partidas por Evento")
-    try:
-        # Calcular resumo por evento com partidas e tickets fora dos eventos
-        event_summary_df = calculate_event_summary_with_outside_events(game_histories, tickets, game_events)
+# Obter nomes das competições
+competition_names = [comp["competition"] for comp in competitions_data]
 
-        # Exibir a tabela no Streamlit
-        st.write("Tabela com o total de partidas e tickets gerados durante cada evento, incluindo fora dos eventos:")
-        st.dataframe(event_summary_df)
-    except Exception as e:
-        st.error(f"Erro ao calcular resumo por evento: {e}")
+# Adicionar seletor de competição com uma chave única
+selected_competition = st.selectbox(
+    "Selecione uma competição:", competition_names, key="competition_selectbox"
+)
 
-    # Resumo de Orders por Evento
-    st.header("Resumo de Orders por Evento")
-    try:
-        # Processar dados de Orders
-        orders = process_json_data(data.get("orders", []), "orders")
+# Filtrar dados da competição selecionada
+selected_data = next(comp for comp in competitions_data if comp["competition"] == selected_competition)
 
-        # Calcular Orders por evento
-        orders_summary_df = calculate_orders_by_event(orders, game_events)
+# Processar dados da competição
+competition_df = process_competition_data(selected_data)
 
-        # Exibir a tabela no Streamlit
-        st.write("Tabela com o total de Orders (pagamentos concluídos) gerados durante cada evento:")
-        st.dataframe(orders_summary_df)
-    except Exception as e:
-        st.error(f"Erro ao calcular resumo de Orders por evento: {e}")
+# Criar gráfico de engajamento
+engagement_graph = create_engagement_graph(competition_df, selected_competition)
 
-    # Resumo de Valores Únicos e Quantidade de Compras por Evento
-    st.header("Resumo de Valores Únicos e Quantidade de Compras por Evento")
-    try:
-        # Processar dados de Orders
-        orders = process_json_data(data.get("orders", []), "orders")
+# Exibir cabeçalho e gráfico com chave única
+st.header(f"Engajamento - {selected_competition}")
+st.plotly_chart(engagement_graph, key=f"plotly_chart_{selected_competition}")
 
-        # Calcular valores únicos de compras por evento
-        unique_order_values_summary_df = calculate_unique_order_values_by_event(orders, game_events)
+# Gráfico de distribuição de tickets por jogos
+st.header("Distribuição de Tickets por Jogos")
+try:
+    game_ticket_distribution = calculate_game_distribution(tickets)
+    st.bar_chart(game_ticket_distribution)
+except Exception as e:
+    st.error(f"Erro ao calcular distribuição de tickets: {e}")
 
-        # Exibir a tabela no Streamlit
-        st.write("Tabela com os valores únicos de compras e a quantidade de compras feitas por evento:")
-        st.dataframe(unique_order_values_summary_df)
-    except Exception as e:
-        st.error(f"Erro ao calcular valores únicos de compras por evento: {e}")
-        
-    # Seção: Heavy Users da Monaco
+# Gráfico de Tickets x Jogos x Meses
+st.header("Distribuição de Tickets por Jogos e Meses")
+try:
+    tickets_by_game_and_month = calculate_tickets_by_game_and_month(tickets)
+    st.line_chart(tickets_by_game_and_month)
+except Exception as e:
+    st.error(f"Erro ao calcular tickets por jogos e meses: {e}")
+
+# Resumo de Tickets e Partidas por Evento
+st.header("Resumo de Tickets e Partidas por Evento")
+try:
+    # Calcular resumo por evento com partidas e tickets fora dos eventos
+    event_summary_df = calculate_event_summary_with_outside_events(game_histories, tickets, game_events)
+
+    # Exibir a tabela no Streamlit
+    st.write("Tabela com o total de partidas e tickets gerados durante cada evento, incluindo fora dos eventos:")
+    st.dataframe(event_summary_df)
+except Exception as e:
+    st.error(f"Erro ao calcular resumo por evento: {e}")
+
+# Resumo de Orders por Evento
+st.header("Resumo de Orders por Evento")
+try:
+    # Processar dados de Orders
+    orders = process_json_data(data.get("orders", []), "orders")
+
+    # Calcular Orders por evento
+    orders_summary_df = calculate_orders_by_event(orders, game_events)
+
+    # Exibir a tabela no Streamlit
+    st.write("Tabela com o total de Orders (pagamentos concluídos) gerados durante cada evento:")
+    st.dataframe(orders_summary_df)
+except Exception as e:
+    st.error(f"Erro ao calcular resumo de Orders por evento: {e}")
+
+# Resumo de Valores Únicos e Quantidade de Compras por Evento
+st.header("Resumo de Valores Únicos e Quantidade de Compras por Evento")
+try:
+    # Processar dados de Orders
+    orders = process_json_data(data.get("orders", []), "orders")
+
+    # Calcular valores únicos de compras por evento
+    unique_order_values_summary_df = calculate_unique_order_values_by_event(orders, game_events)
+
+    # Exibir a tabela no Streamlit
+    st.write("Tabela com os valores únicos de compras e a quantidade de compras feitas por evento:")
+    st.dataframe(unique_order_values_summary_df)
+except Exception as e:
+    st.error(f"Erro ao calcular valores únicos de compras por evento: {e}")
+
+# Seção: Heavy Users da Monaco
 st.header("Top 30 Heavy Users da Monaco")
 try:
     # Calcular os 30 principais heavy users
@@ -121,7 +159,7 @@ try:
 except Exception as e:
     st.error(f"Erro ao calcular os heavy users: {e}")
 
-    # Top 10 Heavy Users do Evento Natal
+# Top 10 Heavy Users do Evento Natal
 st.header("Top 10 Heavy Users do Evento Natal")
 try:
     natal_event_name = "Campeonato Season 6 - Natal"

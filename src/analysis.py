@@ -1,4 +1,11 @@
 import pandas as pd
+import plotly.express as px
+import streamlit as st
+
+def plot_game_distribution(ticket_distribution):
+    fig = px.bar(ticket_distribution, x=ticket_distribution.index, y="amount", title="Distribuição de Tickets")
+    fig.update_layout(xaxis_title="Jogos", yaxis_title="Quantidade de Tickets")
+    st.plotly_chart(fig)
 
 def process_json_data(data, data_type):
     df = pd.DataFrame(data)
@@ -390,3 +397,52 @@ def calculate_top_users_event_summary(game_histories, users, event_name, start_d
     top_users_summary = user_game_counts[user_game_counts["userId"].isin(top_users)]
 
     return top_users_summary[["name", "nickname", "gameId", "date", "Partidas Por Dia"]]
+
+def process_competition_data(competition):
+    """
+    Processa os dados de uma competição para análise.
+    """
+    daily_data = []
+    for daily in competition["engagement_data"]["daily"]:
+        daily_data.append({
+            "date": pd.to_datetime(daily["date"]),
+            "total_average_time": daily["total_average_time"],
+            "observations": daily.get("observations", ""),
+        })
+
+    df = pd.DataFrame(daily_data)
+
+    # Converter total_average_time para segundos
+    df["total_average_time_segundos"] = df["total_average_time"].apply(
+        lambda x: sum(int(part) * 60 ** i for i, part in enumerate(reversed(x.split(":"))))
+    )
+    return df
+
+def create_engagement_graph(dataframe, competition_name):
+    """
+    Gera um gráfico de linha para engajamento diário.
+    """
+    fig = px.line(
+        dataframe,
+        x="date",
+        y="total_average_time_segundos",
+        title=f"Evolução do Engajamento Diário - {competition_name}",
+        labels={
+            "date": "Data",
+            "total_average_time_segundos": "Tempo Médio (segundos)"
+        },
+        markers=True
+    )
+    # Adicionar anotações para observações
+    for _, row in dataframe.iterrows():
+        if row["observations"]:
+            fig.add_annotation(
+                x=row["date"],
+                y=row["total_average_time_segundos"],
+                text=row["observations"],
+                showarrow=True,
+                arrowhead=1,
+                ax=0,
+                ay=-30
+            )
+    return fig
