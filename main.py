@@ -1,5 +1,6 @@
 import streamlit as st
 import json
+import plotly.express as px
 from src.analysis import (
     analyze_growth,
     calculate_orders_by_event,
@@ -14,6 +15,8 @@ from src.analysis import (
     calculate_event_summary_with_outside_events,
     process_competition_data,
     create_engagement_graph,
+    process_age_distribution,
+    process_gender_distribution
 )
 from src.data_loader import load_json_data
 
@@ -92,6 +95,51 @@ engagement_graph = create_engagement_graph(competition_df, selected_competition)
 # st.header(f"Average Time - {selected_competition}")
 st.metric("Average Period (Total)", total_average_period)  # Exibe o valor como métrica
 st.plotly_chart(engagement_graph, key=f"plotly_chart_{selected_competition}")
+
+# Carregar JSON de distribuições
+try:
+    with open("data/distribution_data.json") as f:
+        distribution_data = json.load(f)
+except FileNotFoundError:
+    st.error("Arquivo 'distribution_data.json' não encontrado no diretório 'data/'.")
+    st.stop()
+except KeyError as e:
+    st.error(f"Chave ausente no JSON: {e}")
+    st.stop()
+
+# Processar distribuições
+gender_distribution = distribution_data.get("gender_distribution", {})
+age_distribution = distribution_data.get("age_distribution", {})
+
+gender_df = process_gender_distribution(gender_distribution)
+age_df = process_age_distribution(age_distribution)
+
+# Exibição no Streamlit
+st.title("Distribuições de Gênero e Idade")
+
+# Gráfico de distribuição de gênero
+st.header("Distribuição de Gênero")
+gender_fig = px.bar(
+    gender_df,
+    x="Gênero",
+    y="Porcentagem (%)",
+    title="Distribuição de Gênero",
+    labels={"Gênero": "Gênero", "Porcentagem (%)": "Porcentagem (%)"},
+    text_auto=True
+)
+st.plotly_chart(gender_fig, use_container_width=True)
+
+# Gráfico de distribuição de idade
+st.header("Distribuição de Faixa Etária")
+age_fig = px.bar(
+    age_df,
+    x="Faixa Etária",
+    y="Porcentagem (%)",
+    title="Distribuição de Faixa Etária",
+    labels={"Faixa Etária": "Faixa Etária", "Porcentagem (%)": "Porcentagem (%)"},
+    text_auto=True
+)
+st.plotly_chart(age_fig, use_container_width=True)
 
 # Gráfico de distribuição de tickets por jogos
 st.header("Distribuição de Tickets por Jogos")

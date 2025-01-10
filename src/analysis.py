@@ -446,3 +446,22 @@ def create_engagement_graph(dataframe, competition_name):
                 ay=-30
             )
     return fig
+
+# Distribuição de Gênero e Idade
+def process_gender_distribution(gender_distribution):
+    """
+    Processa a distribuição de gênero em um DataFrame.
+    """
+    return pd.DataFrame({
+        "Gênero": gender_distribution.keys(),
+        "Porcentagem (%)": gender_distribution.values()
+    })
+
+def process_age_distribution(age_distribution):
+    """
+    Processa a distribuição de idade em um DataFrame.
+    """
+    return pd.DataFrame({
+        "Faixa Etária": age_distribution.keys(),
+        "Porcentagem (%)": [float(value.strip('%')) for value in age_distribution.values()]
+    })
