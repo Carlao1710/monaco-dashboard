@@ -66,7 +66,7 @@ except KeyError:
     st.stop()
 
 # Título do Dashboard
-st.title("Análises de Engajamento - GameRoom Competitions")
+st.title("Análises de Engajamento por Competição")
 
 # Obter nomes das competições
 competition_names = [comp["competition"] for comp in competitions_data]
@@ -82,11 +82,15 @@ selected_data = next(comp for comp in competitions_data if comp["competition"] =
 # Processar dados da competição
 competition_df = process_competition_data(selected_data)
 
+# Obter o valor de total_average_period
+total_average_period = selected_data["engagement_data"]["total_period"].get("total_average_period", "N/A")
+
 # Criar gráfico de engajamento
 engagement_graph = create_engagement_graph(competition_df, selected_competition)
 
-# Exibir cabeçalho e gráfico com chave única
-st.header(f"Engajamento - {selected_competition}")
+# Exibir cabeçalho, gráfico e total_average_period
+# st.header(f"Average Time - {selected_competition}")
+st.metric("Average Period (Total)", total_average_period)  # Exibe o valor como métrica
 st.plotly_chart(engagement_graph, key=f"plotly_chart_{selected_competition}")
 
 # Gráfico de distribuição de tickets por jogos

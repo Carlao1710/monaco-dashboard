@@ -12,7 +12,7 @@
         "total_period": {
           "start": "2024-11-14",
           "end": "2024-11-29",
-          "total_average_time": "00:03:15",
+          "total_average_period": "00:03:15",
           "observations": null
         },
         "daily": [
@@ -150,7 +150,7 @@
         "total_period": {
           "start": "2024-12-13",
           "end": "2024-12-23",
-          "total_average_time": "00:06:19",
+          "total_average_period": "00:06:19",
           "observations": null
         },
         "daily": [
