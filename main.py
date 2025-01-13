@@ -20,6 +20,47 @@ from src.analysis import (
 )
 from src.data_loader import load_json_data
 
+# Personalização do layout
+st.set_page_config(
+    page_title="Monaco Dashboard",
+    page_icon="assets/monaco.png",
+    layout="wide",
+)
+
+# Adicionar cabeçalho com logo e título alinhados
+st.markdown(
+    """
+    <style>
+    /* Container para o cabeçalho */
+    .header-container {
+        display: flex;
+        align-items: center;
+        background-color: #1E1E2F;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    /* Logo alinhado à esquerda */
+    .header-container img {
+        max-height: 50px;
+        margin-right: 15px;
+    }
+    /* Título centralizado */
+    .header-container h1 {
+        color: #ffffff;
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+    }
+    </style>
+   <div style="display: flex; align-items: center; background-color: #1E1E2F; padding: 10px; border-radius: 10px;">
+        <img src="assets/monaco.png" alt="Monaco Logo" style="width: 50px; margin-right: 15px;">
+        <h1 style="color: white; font-family: 'Arial', sans-serif; margin: 0;">Monaco Dashboard</h1>
+    </div>
+        <h1>Monaco Dashboard</h1>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
+
 # Configuração do Streamlit
 st.title("Análise e Projeções do GameRoom da Monaco")
 st.write("Explore os dados de partidas, tickets e usuários do GameRoom e realize projeções com base nos clientes da Monaco.")
