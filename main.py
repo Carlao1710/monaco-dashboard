@@ -305,3 +305,44 @@ st.plotly_chart(engagement_graph, key=f"plotly_chart_{selected_competition}")
 #     st.success(f"Jogo Recomendado: {recommended_game}")
 # except Exception as e:
 #     st.error(f"Erro na recomendação: {e}")
+
+# Adicionar rodapé
+st.markdown(
+    """
+    <style>
+    .footer-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        border-radius: 10px;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .footer-container p {
+        color: black;
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+        font-size: 0.9rem;
+    }
+    .footer-container a {
+        color: #00acee;
+        text-decoration: none;
+        font-weight: bold;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .footer-container a:hover {
+        text-decoration: underline;
+    }
+    </style>
+    <div class="footer-container">
+        <p>© 2025 Monaco Soluções LTDA. Todos os direitos reservados. | Al Rio Negro 503, Sala 2020, Alphaville/SP - BR</p>
+        <p>
+            <a href="https://www.linkedin.com/company/monaco-gg" target="_blank">LinkedIn</a> |
+            <a href="https://www.monaco.gg" target="_blank">Site</a>
+        </p>
+    </div>
+    """,
+    unsafe_allow_html=True,
+)
