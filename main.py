@@ -11,12 +11,11 @@ from src.analysis import (
     process_json_data,
     calculate_game_distribution,
     calculate_tickets_by_game_and_month,
-    calculate_tickets_by_level,
     calculate_event_summary_with_outside_events,
     process_competition_data,
     create_engagement_graph,
     process_age_distribution,
-    process_gender_distribution
+    process_gender_distribution,
 )
 from src.data_loader import load_json_data
 
@@ -27,43 +26,44 @@ st.set_page_config(
     layout="wide",
 )
 
-# Adicionar cabeçalho com logo e título alinhados
+# Adicionar cabeçalho
 st.markdown(
     """
     <style>
-    /* Container para o cabeçalho */
     .header-container {
         display: flex;
+        justify-content: center;
         align-items: center;
-        background-color: #1E1E2F;
+        background-color: #372779;
         padding: 10px;
         border-radius: 10px;
     }
-    /* Logo alinhado à esquerda */
-    .header-container img {
-        max-height: 50px;
-        margin-right: 15px;
-    }
-    /* Título centralizado */
     .header-container h1 {
-        color: #ffffff;
+        color: white;
         font-family: 'Arial', sans-serif;
         margin: 0;
     }
     </style>
-   <div style="display: flex; align-items: center; background-color: #1E1E2F; padding: 10px; border-radius: 10px;">
-        <img src="assets/monaco.png" alt="Monaco Logo" style="width: 50px; margin-right: 15px;">
-        <h1 style="color: white; font-family: 'Arial', sans-serif; margin: 0;">Monaco Dashboard</h1>
-    </div>
+    <div class="header-container">
         <h1>Monaco Dashboard</h1>
     </div>
     """,
-    unsafe_allow_html=True
+    unsafe_allow_html=True,
 )
 
-# Configuração do Streamlit
-st.title("Análise e Projeções do GameRoom da Monaco")
-st.write("Explore os dados de partidas, tickets e usuários do GameRoom e realize projeções com base nos clientes da Monaco.")
+st.markdown(
+    """
+    <style>
+    .center-text {
+        text-align: center;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
+
+st.markdown('<h1 class="center-text">Análise e Projeções do GameRoom da Monaco</h1>', unsafe_allow_html=True)
+st.markdown('<p class="center-text">Explore os dados de partidas, tickets, usuários e resultados de gamificação.</p>', unsafe_allow_html=True)
 
 # Caminho dos dados
 DATA_DIR = "data/"
@@ -74,31 +74,128 @@ data = load_json_data(DATA_DIR)
 if not data:
     st.error("Erro ao carregar os dados. Verifique os arquivos JSON.")
 else:
-    # Processando os dados
+    # Processar dados
     game_histories = process_json_data(data.get("gamehistories", []), "game_histories")
     tickets = process_json_data(data.get("tickets", []), "tickets")
     users = process_json_data(data.get("users", []), "users")
     game_events = process_json_data(data.get("gameevents", []), "game_events")
 
-    # Análise de crescimento
+    # Crescimento em 2024
     st.header("Crescimento em 2024")
     try:
-        games_per_month, total_tickets_amount, users_per_month = analyze_growth(game_histories, tickets, users)
-
-        st.subheader("Partidas por Mês")
-        st.line_chart(games_per_month)
-
-        st.subheader("Total de Tickets por Mês (Valor Total)")
-        st.line_chart(total_tickets_amount)
-
-        st.subheader("Usuários por Mês")
-        st.line_chart(users_per_month)
-    except ValueError as ve:
-        st.error(f"Erro na análise: {ve}")
+        games_per_month, total_tickets_amount, users_per_month = analyze_growth(
+            game_histories, tickets, users
+        )
+        col1, col2, col3 = st.columns(3)
+        with col1:
+            st.subheader("Partidas por Mês")
+            st.line_chart(games_per_month)
+        with col2:
+            st.subheader("Tickets por Mês")
+            st.line_chart(total_tickets_amount)
+        with col3:
+            st.subheader("Usuários por Mês")
+            st.line_chart(users_per_month)
     except Exception as e:
-        st.error(f"Erro inesperado na análise: {e}")
+        st.error(f"Erro ao analisar crescimento: {e}")
 
-# Carregar JSON de competições
+    # Distribuições de Gênero e Idade
+    st.header("Distribuições de Gênero e Idade")
+    try:
+        with open(f"{DATA_DIR}/distribution_data.json") as f:
+            distribution_data = json.load(f)
+    
+        gender_df = process_gender_distribution(distribution_data.get("gender_distribution", {}))
+        age_df = process_age_distribution(distribution_data.get("age_distribution", {}))
+    
+        col1, col2 = st.columns(2)
+        with col1:
+            st.subheader("Gênero")
+            gender_fig = px.bar(
+                gender_df,
+                x="Gênero",
+                y="Porcentagem (%)",
+                title="Distribuição por Gênero",
+                text_auto=True,
+            )
+            st.plotly_chart(gender_fig, use_container_width=True)
+    
+        with col2:
+            st.subheader("Idade")
+            age_fig = px.bar(
+                age_df,
+                x="Faixa Etária",
+                y="Porcentagem (%)",
+                title="Distribuição por Idade",
+                text_auto=True,
+            )
+            st.plotly_chart(age_fig, use_container_width=True)
+    except Exception as e:
+        st.error(f"Erro ao processar distribuições: {e}")
+
+    # Distribuição de Tickets
+    st.header("Distribuição de Tickets")
+    try:
+        col1, col2 = st.columns(2)
+        with col1:
+            st.subheader("Por Jogos")
+            game_ticket_distribution = calculate_game_distribution(tickets)
+            st.bar_chart(game_ticket_distribution)
+
+        with col2:
+            st.subheader("Por Meses")
+            tickets_by_game_and_month = calculate_tickets_by_game_and_month(tickets)
+            st.line_chart(tickets_by_game_and_month)
+    except Exception as e:
+        st.error(f"Erro ao calcular distribuição de tickets: {e}")
+
+    # Resumo de Tabelas
+    st.header("Resumo de Eventos")
+    try:
+        col1, col2, col3 = st.columns(3)
+        with col1:
+            event_summary_df = calculate_event_summary_with_outside_events(
+                game_histories, tickets, game_events
+            )
+            st.subheader("Tickets e Partidas por Evento")
+            st.dataframe(event_summary_df)
+
+        with col2:
+            orders_summary_df = calculate_orders_by_event(
+                process_json_data(data.get("orders", []), "orders"), game_events
+            )
+            st.subheader("Orders por Evento")
+            st.dataframe(orders_summary_df)
+
+        with col3:
+            unique_order_values_summary_df = calculate_unique_order_values_by_event(
+                process_json_data(data.get("orders", []), "orders"), game_events
+            )
+            st.subheader("Valores e Compras por Evento")
+            st.dataframe(unique_order_values_summary_df)
+    except Exception as e:
+        st.error(f"Erro ao calcular tabelas de resumo: {e}")
+
+    # Heavy Users
+    st.header("Top Heavy Users")
+    try:
+        col1, col2 = st.columns(2)
+        with col1:
+            top_heavy_users_df = calculate_top_heavy_users(game_histories, users)
+            st.subheader("Top 30 Heavy Users")
+            st.dataframe(top_heavy_users_df)
+
+        with col2:
+            natal_event_name = "Campeonato Season 6 - Natal"
+            top_users_natal_df = calculate_top_users_event_summary(
+                game_histories, users, natal_event_name, "2024-12-13", "2024-12-24", top_n=10
+            )
+            st.subheader(f"Top 10 Heavy Users - {natal_event_name}")
+            st.dataframe(top_users_natal_df)
+    except Exception as e:
+        st.error(f"Erro ao processar usuários: {e}")
+
+        # Carregar JSON de competições
 try:
     with open("data/competitions_gameroom.json") as f:
         competitions_data = json.load(f)["competitions"]
@@ -136,144 +233,6 @@ engagement_graph = create_engagement_graph(competition_df, selected_competition)
 # st.header(f"Average Time - {selected_competition}")
 st.metric("Average Period (Total)", total_average_period)  # Exibe o valor como métrica
 st.plotly_chart(engagement_graph, key=f"plotly_chart_{selected_competition}")
-
-# Carregar JSON de distribuições
-try:
-    with open("data/distribution_data.json") as f:
-        distribution_data = json.load(f)
-except FileNotFoundError:
-    st.error("Arquivo 'distribution_data.json' não encontrado no diretório 'data/'.")
-    st.stop()
-except KeyError as e:
-    st.error(f"Chave ausente no JSON: {e}")
-    st.stop()
-
-# Processar distribuições
-gender_distribution = distribution_data.get("gender_distribution", {})
-age_distribution = distribution_data.get("age_distribution", {})
-
-gender_df = process_gender_distribution(gender_distribution)
-age_df = process_age_distribution(age_distribution)
-
-# Exibição no Streamlit
-st.title("Distribuições de Gênero e Idade")
-
-# Gráfico de distribuição de gênero
-st.header("Distribuição de Gênero")
-gender_fig = px.bar(
-    gender_df,
-    x="Gênero",
-    y="Porcentagem (%)",
-    title="Distribuição de Gênero",
-    labels={"Gênero": "Gênero", "Porcentagem (%)": "Porcentagem (%)"},
-    text_auto=True
-)
-st.plotly_chart(gender_fig, use_container_width=True)
-
-# Gráfico de distribuição de idade
-st.header("Distribuição de Faixa Etária")
-age_fig = px.bar(
-    age_df,
-    x="Faixa Etária",
-    y="Porcentagem (%)",
-    title="Distribuição de Faixa Etária",
-    labels={"Faixa Etária": "Faixa Etária", "Porcentagem (%)": "Porcentagem (%)"},
-    text_auto=True
-)
-st.plotly_chart(age_fig, use_container_width=True)
-
-# Gráfico de distribuição de tickets por jogos
-st.header("Distribuição de Tickets por Jogos")
-try:
-    game_ticket_distribution = calculate_game_distribution(tickets)
-    st.bar_chart(game_ticket_distribution)
-except Exception as e:
-    st.error(f"Erro ao calcular distribuição de tickets: {e}")
-
-# Gráfico de Tickets x Jogos x Meses
-st.header("Distribuição de Tickets por Jogos e Meses")
-try:
-    tickets_by_game_and_month = calculate_tickets_by_game_and_month(tickets)
-    st.line_chart(tickets_by_game_and_month)
-except Exception as e:
-    st.error(f"Erro ao calcular tickets por jogos e meses: {e}")
-
-# Resumo de Tickets e Partidas por Evento
-st.header("Resumo de Tickets e Partidas por Evento")
-try:
-    # Calcular resumo por evento com partidas e tickets fora dos eventos
-    event_summary_df = calculate_event_summary_with_outside_events(game_histories, tickets, game_events)
-
-    # Exibir a tabela no Streamlit
-    st.write("Tabela com o total de partidas e tickets gerados durante cada evento, incluindo fora dos eventos:")
-    st.dataframe(event_summary_df)
-except Exception as e:
-    st.error(f"Erro ao calcular resumo por evento: {e}")
-
-# Resumo de Orders por Evento
-st.header("Resumo de Orders por Evento")
-try:
-    # Processar dados de Orders
-    orders = process_json_data(data.get("orders", []), "orders")
-
-    # Calcular Orders por evento
-    orders_summary_df = calculate_orders_by_event(orders, game_events)
-
-    # Exibir a tabela no Streamlit
-    st.write("Tabela com o total de Orders (pagamentos concluídos) gerados durante cada evento:")
-    st.dataframe(orders_summary_df)
-except Exception as e:
-    st.error(f"Erro ao calcular resumo de Orders por evento: {e}")
-
-# Resumo de Valores Únicos e Quantidade de Compras por Evento
-st.header("Resumo de Valores Únicos e Quantidade de Compras por Evento")
-try:
-    # Processar dados de Orders
-    orders = process_json_data(data.get("orders", []), "orders")
-
-    # Calcular valores únicos de compras por evento
-    unique_order_values_summary_df = calculate_unique_order_values_by_event(orders, game_events)
-
-    # Exibir a tabela no Streamlit
-    st.write("Tabela com os valores únicos de compras e a quantidade de compras feitas por evento:")
-    st.dataframe(unique_order_values_summary_df)
-except Exception as e:
-    st.error(f"Erro ao calcular valores únicos de compras por evento: {e}")
-
-# Seção: Heavy Users da Monaco
-st.header("Top 30 Heavy Users da Monaco")
-try:
-    # Calcular os 30 principais heavy users
-    top_heavy_users_df = calculate_top_heavy_users(game_histories, users)
-
-    # Exibir a tabela no Streamlit
-    st.write("Tabela com os 30 usuários com mais partidas:")
-    st.dataframe(top_heavy_users_df)
-except Exception as e:
-    st.error(f"Erro ao calcular os heavy users: {e}")
-
-# Top 10 Heavy Users do Evento Natal
-st.header("Top 10 Heavy Users do Evento Natal")
-try:
-    natal_event_name = "Campeonato Season 6 - Natal"
-    natal_start_date = "2024-12-13"
-    natal_end_date = "2024-12-24"
-
-    # Calcular os top 10 heavy users durante o evento Natal
-    top_users_natal_df = calculate_top_users_event_summary(
-        game_histories,
-        users,
-        natal_event_name,
-        natal_start_date,
-        natal_end_date,
-        top_n=10
-    )
-
-    # Exibir a tabela no Streamlit
-    st.write(f"Tabela com os top 10 usuários durante o evento '{natal_event_name}':")
-    st.dataframe(top_users_natal_df)
-except Exception as e:
-    st.error(f"Erro ao calcular os top heavy users do evento Natal: {e}")
 
 # Projeções para clientes da Claro
 # st.header("Projeções para a Claro")
