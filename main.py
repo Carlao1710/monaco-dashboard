@@ -88,13 +88,13 @@ else:
         )
         col1, col2, col3 = st.columns(3)
         with col1:
-            st.subheader("Partidas por Mês")
+            st.subheader("Partidas por Mês - 7684")
             st.line_chart(games_per_month)
         with col2:
-            st.subheader("Tickets por Mês")
+            st.subheader("Tickets por Mês - 567.593")
             st.line_chart(total_tickets_amount)
         with col3:
-            st.subheader("Usuários por Mês")
+            st.subheader("Usuários por Mês - 1314")
             st.line_chart(users_per_month)
     except Exception as e:
         st.error(f"Erro ao analisar crescimento: {e}")
