@@ -341,7 +341,7 @@ def calculate_top_heavy_users(game_histories, users, top_n=30):
     user_game_counts = user_game_counts.merge(users, left_on="userId", right_on="_id", how="left")
 
     # Selecionar colunas relevantes
-    user_game_counts = user_game_counts[["userId", "Total de Partidas", "name", "nickname"]]
+    user_game_counts = user_game_counts[["Total de Partidas", "nickname"]]
 
     # Ordenar e selecionar os top N usuários
     top_users = user_game_counts.sort_values(by="Total de Partidas", ascending=False).head(top_n)
@@ -396,7 +396,7 @@ def calculate_top_users_event_summary(game_histories, users, event_name, start_d
     top_users = total_user_games.nlargest(top_n, "Total Partidas")["userId"]
     top_users_summary = user_game_counts[user_game_counts["userId"].isin(top_users)]
 
-    return top_users_summary[["name", "nickname", "gameId", "date", "Partidas Por Dia"]]
+    return top_users_summary[["nickname", "gameId", "date", "Partidas Por Dia"]]
 
 def process_competition_data(competition):
     """

@@ -177,23 +177,36 @@ else:
         st.error(f"Erro ao calcular tabelas de resumo: {e}")
 
     # Heavy Users
-    st.header("Top Heavy Users")
-    try:
-        col1, col2 = st.columns(2)
-        with col1:
-            top_heavy_users_df = calculate_top_heavy_users(game_histories, users)
-            st.subheader("Top 30 Heavy Users")
-            st.dataframe(top_heavy_users_df)
+    # Seção: Heavy Users da Monaco
+st.header("Top Heavy Users")
 
-        with col2:
-            natal_event_name = "Campeonato Season 6 - Natal"
-            top_users_natal_df = calculate_top_users_event_summary(
-                game_histories, users, natal_event_name, "2024-12-13", "2024-12-24", top_n=10
-            )
-            st.subheader(f"Top 10 Heavy Users - {natal_event_name}")
-            st.dataframe(top_users_natal_df)
-    except Exception as e:
-        st.error(f"Erro ao processar usuários: {e}")
+try:
+    # Dividir em duas colunas para melhor organização
+    col1, col2 = st.columns([1, 1])  # Definir proporções iguais para as colunas
+
+    with col1:
+        st.subheader("Top 30 Heavy Users")
+        top_heavy_users_df = calculate_top_heavy_users(game_histories, users)
+        st.dataframe(top_heavy_users_df.style.set_table_styles([
+            {'selector': 'thead th', 'props': [('background-color', '#372779'), ('color', 'white')]},
+            {'selector': 'tbody tr:nth-child(even)', 'props': [('background-color', '#f9f9f9')]},
+            {'selector': 'tbody tr:nth-child(odd)', 'props': [('background-color', 'white')]}
+        ]), height=400)
+
+    with col2:
+        natal_event_name = "Campeonato Season 6 - Natal"
+        st.subheader(f"Top 10 Heavy Users - {natal_event_name}")
+        top_users_natal_df = calculate_top_users_event_summary(
+            game_histories, users, natal_event_name, "2024-12-13", "2024-12-24", top_n=10
+        )
+        st.dataframe(top_users_natal_df.style.set_table_styles([
+            {'selector': 'thead th', 'props': [('background-color', '#372779'), ('color', 'white')]},
+            {'selector': 'tbody tr:nth-child(even)', 'props': [('background-color', '#f9f9f9')]},
+            {'selector': 'tbody tr:nth-child(odd)', 'props': [('background-color', 'white')]}
+        ]), height=400)
+
+except Exception as e:
+    st.error(f"Erro ao processar usuários: {e}")
 
         # Carregar JSON de competições
 try:
