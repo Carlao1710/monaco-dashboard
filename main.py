@@ -244,7 +244,7 @@ engagement_graph = create_engagement_graph(competition_df, selected_competition)
 
 # Exibir cabeçalho, gráfico e total_average_period
 # st.header(f"Average Time - {selected_competition}")
-st.metric("Average Period (Total)", total_average_period)  # Exibe o valor como métrica
+st.metric("Tempo Médio de Tela da Competição", total_average_period)  # Exibe o valor como métrica
 st.plotly_chart(engagement_graph, key=f"plotly_chart_{selected_competition}")
 
 # Projeções para clientes da Claro

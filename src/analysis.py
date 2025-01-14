@@ -429,7 +429,7 @@ def create_engagement_graph(dataframe, competition_name):
         title=f"Evolução do Engajamento Diário - {competition_name}",
         labels={
             "date": "Data",
-            "total_average_time_segundos": "Tempo Médio (segundos)"
+            "total_average_time_segundos": "Tempo Médio de Tela (segundos)"
         },
         markers=True
     )
